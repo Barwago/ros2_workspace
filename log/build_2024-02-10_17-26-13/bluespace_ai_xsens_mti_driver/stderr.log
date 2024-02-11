@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o: in function `CamImuPublisher::operator()(XsDataPacket const&, rclcpp::Time)':
+xdainterface.cpp:(.text._ZN15CamImuPublisherclERK12XsDataPacketN6rclcpp4TimeE[_ZN15CamImuPublisherclERK12XsDataPacketN6rclcpp4TimeE]+0x1d0): undefined reference to `cv_bridge::CvImage::toImageMsg() const'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/xsens_mti_node.dir/build.make:231: xsens_mti_node] Error 1
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_mti_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

@@ -1,0 +1,254 @@
+[0.000000] (-) TimerEvent: {}
+[0.000765] (bluespace_ai_xsens_mti_driver) JobQueued: {'identifier': 'bluespace_ai_xsens_mti_driver', 'dependencies': OrderedDict()}
+[0.001427] (v4l2_camera) JobQueued: {'identifier': 'v4l2_camera', 'dependencies': OrderedDict()}
+[0.001503] (bluespace_ai_xsens_mti_driver) JobStarted: {'identifier': 'bluespace_ai_xsens_mti_driver'}
+[0.099248] (-) TimerEvent: {}
+[0.200430] (-) TimerEvent: {}
+[0.303103] (-) TimerEvent: {}
+[0.404337] (-) TimerEvent: {}
+[0.455912] (v4l2_camera) JobStarted: {'identifier': 'v4l2_camera'}
+[0.504648] (-) TimerEvent: {}
+[0.605749] (-) TimerEvent: {}
+[0.707071] (-) TimerEvent: {}
+[0.808067] (-) TimerEvent: {}
+[0.868773] (bluespace_ai_xsens_mti_driver) JobProgress: {'identifier': 'bluespace_ai_xsens_mti_driver', 'progress': 'cmake'}
+[0.870397] (bluespace_ai_xsens_mti_driver) JobProgress: {'identifier': 'bluespace_ai_xsens_mti_driver', 'progress': 'build'}
+[0.871860] (bluespace_ai_xsens_mti_driver) Command: {'cmd': ['/home/ubuntu/.local/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('LC_TIME', 'nb_NO.UTF-8'), ('SSH_AGENT_PID', '2196'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/v4l2_camera/lib:/home/ubuntu/install/v4l2_camera/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.4.1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Orin NX Developer Kit'), ('LC_MONETARY', 'nb_NO.UTF-8'), ('MANAGERPID', '1366'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/ubuntu/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install:/home/ubuntu/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JETSON_MODULE', 'NVIDIA Jetson Orin NX (16GB ram)'), ('JETSON_SERIAL_NUMBER', '1423123025483'), ('JOURNAL_STREAM', '8:55995'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'P3768'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.local/bin:/usr/bin'), ('SESSION_MANAGER', 'local/ubuntu-jetson-orin:@/tmp/.ICE-unix/2266,unix/ubuntu-jetson-orin:/tmp/.ICE-unix/2266'), ('INVOCATION_ID', '59e51cef2e4a43a797bf86097f198fb0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nb_NO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2f5a1055_080e_426a_9828_976269e99b21'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nb_NO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra23x'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/v4l2_camera:/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver:/home/ubuntu/install/v4l2_camera:/home/ubuntu/install/bluespace_ai_xsens_mti_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nb_NO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nb_NO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'nb_NO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'nb_NO.UTF-8'), ('LC_PAPER', 'nb_NO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1.2'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/v4l2_camera:/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver:/home/ubuntu/install/v4l2_camera:/home/ubuntu/install/bluespace_ai_xsens_mti_driver:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3767-0000')]), 'shell': False}
+[0.885128] (v4l2_camera) JobProgress: {'identifier': 'v4l2_camera', 'progress': 'cmake'}
+[0.886778] (v4l2_camera) JobProgress: {'identifier': 'v4l2_camera', 'progress': 'build'}
+[0.887416] (v4l2_camera) Command: {'cmd': ['/home/ubuntu/.local/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/v4l2_camera', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/v4l2_camera', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('LC_TIME', 'nb_NO.UTF-8'), ('SSH_AGENT_PID', '2196'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/v4l2_camera/lib:/home/ubuntu/install/v4l2_camera/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.4.1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Orin NX Developer Kit'), ('LC_MONETARY', 'nb_NO.UTF-8'), ('MANAGERPID', '1366'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/ubuntu/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install:/home/ubuntu/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JETSON_MODULE', 'NVIDIA Jetson Orin NX (16GB ram)'), ('JETSON_SERIAL_NUMBER', '1423123025483'), ('JOURNAL_STREAM', '8:55995'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'P3768'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.local/bin:/usr/bin'), ('SESSION_MANAGER', 'local/ubuntu-jetson-orin:@/tmp/.ICE-unix/2266,unix/ubuntu-jetson-orin:/tmp/.ICE-unix/2266'), ('INVOCATION_ID', '59e51cef2e4a43a797bf86097f198fb0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nb_NO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2f5a1055_080e_426a_9828_976269e99b21'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nb_NO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra23x'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/v4l2_camera:/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver:/home/ubuntu/install/v4l2_camera:/home/ubuntu/install/bluespace_ai_xsens_mti_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nb_NO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nb_NO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'nb_NO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/ubuntu/ros2_ws/build/v4l2_camera'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'nb_NO.UTF-8'), ('LC_PAPER', 'nb_NO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1.2'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/v4l2_camera:/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver:/home/ubuntu/install/v4l2_camera:/home/ubuntu/install/bluespace_ai_xsens_mti_driver:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3767-0000')]), 'shell': False}
+[0.908283] (-) TimerEvent: {}
+[0.937920] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o\x1b[0m\n'}
+[0.948754] (v4l2_camera) StdoutLine: {'line': b'[ 42%] Built target v4l2_camera\n'}
+[0.973755] (v4l2_camera) StdoutLine: {'line': b'[100%] Built target v4l2_camera_compose_test\n'}
+[0.974309] (v4l2_camera) StdoutLine: {'line': b'[100%] Built target v4l2_camera_node\n'}
+[0.982455] (v4l2_camera) CommandEnded: {'returncode': 0}
+[1.008471] (-) TimerEvent: {}
+[1.031822] (v4l2_camera) JobProgress: {'identifier': 'v4l2_camera', 'progress': 'install'}
+[1.039643] (v4l2_camera) Command: {'cmd': ['/home/ubuntu/.local/bin/cmake', '--install', '/home/ubuntu/ros2_ws/build/v4l2_camera'], 'cwd': '/home/ubuntu/ros2_ws/build/v4l2_camera', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('LC_TIME', 'nb_NO.UTF-8'), ('SSH_AGENT_PID', '2196'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/v4l2_camera/lib:/home/ubuntu/install/v4l2_camera/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.4.1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Orin NX Developer Kit'), ('LC_MONETARY', 'nb_NO.UTF-8'), ('MANAGERPID', '1366'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/ubuntu/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install:/home/ubuntu/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JETSON_MODULE', 'NVIDIA Jetson Orin NX (16GB ram)'), ('JETSON_SERIAL_NUMBER', '1423123025483'), ('JOURNAL_STREAM', '8:55995'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'P3768'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.local/bin:/usr/bin'), ('SESSION_MANAGER', 'local/ubuntu-jetson-orin:@/tmp/.ICE-unix/2266,unix/ubuntu-jetson-orin:/tmp/.ICE-unix/2266'), ('INVOCATION_ID', '59e51cef2e4a43a797bf86097f198fb0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nb_NO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2f5a1055_080e_426a_9828_976269e99b21'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nb_NO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra23x'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/v4l2_camera:/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver:/home/ubuntu/install/v4l2_camera:/home/ubuntu/install/bluespace_ai_xsens_mti_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nb_NO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nb_NO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'nb_NO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/ubuntu/ros2_ws/build/v4l2_camera'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'nb_NO.UTF-8'), ('LC_PAPER', 'nb_NO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1.2'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/v4l2_camera:/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver:/home/ubuntu/install/v4l2_camera:/home/ubuntu/install/bluespace_ai_xsens_mti_driver:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3767-0000')]), 'shell': False}
+[1.050531] (v4l2_camera) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.051505] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/v4l2_camera/include\n'}
+[1.051752] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/v4l2_camera/include/v4l2_camera\n'}
+[1.051938] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/v4l2_camera/include/v4l2_camera/v4l2_camera.hpp\n'}
+[1.052203] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/v4l2_camera/include/v4l2_camera/visibility_control.h\n'}
+[1.052373] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/v4l2_camera/include/v4l2_camera/pixel_format.hpp\n'}
+[1.052532] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/v4l2_camera/include/v4l2_camera/v4l2_camera_device.hpp\n'}
+[1.052771] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/v4l2_camera/include/v4l2_camera/fourcc.hpp\n'}
+[1.052933] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/v4l2_camera/include/v4l2_camera/control.hpp\n'}
+[1.053292] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/v4l2_camera/include/v4l2_camera/image_format.hpp\n'}
+[1.053665] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/v4l2_camera/lib/libv4l2_camera.so\n'}
+[1.054063] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_node\n'}
+[1.054298] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_compose_test\n'}
+[1.054462] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/environment/library_path.sh\n'}
+[1.054642] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/environment/library_path.dsv\n'}
+[1.054947] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/v4l2_camera/share/ament_index/resource_index/package_run_dependencies/v4l2_camera\n'}
+[1.055408] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/v4l2_camera/share/ament_index/resource_index/parent_prefix_path/v4l2_camera\n'}
+[1.055866] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.sh\n'}
+[1.056039] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.dsv\n'}
+[1.056254] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/environment/path.sh\n'}
+[1.056410] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/environment/path.dsv\n'}
+[1.056558] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/local_setup.bash\n'}
+[1.056704] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/local_setup.sh\n'}
+[1.056856] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/local_setup.zsh\n'}
+[1.057001] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/local_setup.dsv\n'}
+[1.057141] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/package.dsv\n'}
+[1.057284] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/v4l2_camera/share/ament_index/resource_index/packages/v4l2_camera\n'}
+[1.057426] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/v4l2_camera/share/ament_index/resource_index/rclcpp_components/v4l2_camera\n'}
+[1.057568] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport.cmake\n'}
+[1.057731] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport-noconfig.cmake\n'}
+[1.057872] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.058012] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.058206] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.058350] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.058493] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig.cmake\n'}
+[1.058635] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig-version.cmake\n'}
+[1.058777] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/package.xml\n'}
+[1.064563] (v4l2_camera) CommandEnded: {'returncode': 0}
+[1.108618] (-) TimerEvent: {}
+[1.209945] (-) TimerEvent: {}
+[1.311840] (-) TimerEvent: {}
+[1.412687] (-) TimerEvent: {}
+[1.514004] (-) TimerEvent: {}
+[1.614853] (-) TimerEvent: {}
+[1.717621] (-) TimerEvent: {}
+[1.819155] (-) TimerEvent: {}
+[1.920727] (-) TimerEvent: {}
+[1.987011] (v4l2_camera) JobEnded: {'identifier': 'v4l2_camera', 'rc': 0}
+[2.021082] (-) TimerEvent: {}
+[2.121992] (-) TimerEvent: {}
+[2.222714] (-) TimerEvent: {}
+[2.323457] (-) TimerEvent: {}
+[2.424165] (-) TimerEvent: {}
+[2.524864] (-) TimerEvent: {}
+[2.625608] (-) TimerEvent: {}
+[2.726349] (-) TimerEvent: {}
+[2.827090] (-) TimerEvent: {}
+[2.927859] (-) TimerEvent: {}
+[3.028609] (-) TimerEvent: {}
+[3.129339] (-) TimerEvent: {}
+[3.230047] (-) TimerEvent: {}
+[3.330778] (-) TimerEvent: {}
+[3.431475] (-) TimerEvent: {}
+[3.532166] (-) TimerEvent: {}
+[3.632898] (-) TimerEvent: {}
+[3.733619] (-) TimerEvent: {}
+[3.834352] (-) TimerEvent: {}
+[3.935082] (-) TimerEvent: {}
+[4.035834] (-) TimerEvent: {}
+[4.136564] (-) TimerEvent: {}
+[4.237298] (-) TimerEvent: {}
+[4.338052] (-) TimerEvent: {}
+[4.438752] (-) TimerEvent: {}
+[4.539490] (-) TimerEvent: {}
+[4.640214] (-) TimerEvent: {}
+[4.740954] (-) TimerEvent: {}
+[4.841697] (-) TimerEvent: {}
+[4.942434] (-) TimerEvent: {}
+[5.043158] (-) TimerEvent: {}
+[5.143940] (-) TimerEvent: {}
+[5.244670] (-) TimerEvent: {}
+[5.345405] (-) TimerEvent: {}
+[5.446101] (-) TimerEvent: {}
+[5.546782] (-) TimerEvent: {}
+[5.647501] (-) TimerEvent: {}
+[5.748242] (-) TimerEvent: {}
+[5.849005] (-) TimerEvent: {}
+[5.949718] (-) TimerEvent: {}
+[6.050455] (-) TimerEvent: {}
+[6.151192] (-) TimerEvent: {}
+[6.251966] (-) TimerEvent: {}
+[6.352728] (-) TimerEvent: {}
+[6.453441] (-) TimerEvent: {}
+[6.554149] (-) TimerEvent: {}
+[6.654888] (-) TimerEvent: {}
+[6.755651] (-) TimerEvent: {}
+[6.856380] (-) TimerEvent: {}
+[6.957119] (-) TimerEvent: {}
+[7.057851] (-) TimerEvent: {}
+[7.158573] (-) TimerEvent: {}
+[7.259334] (-) TimerEvent: {}
+[7.360061] (-) TimerEvent: {}
+[7.460789] (-) TimerEvent: {}
+[7.561515] (-) TimerEvent: {}
+[7.662266] (-) TimerEvent: {}
+[7.763016] (-) TimerEvent: {}
+[7.863773] (-) TimerEvent: {}
+[7.883346] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/xdainterface.cpp:87\x1b[m\x1b[K:\n'}
+[7.884249] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void CamImuPublisher::operator()(const XsDataPacket&, rclcpp::Time)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.884463] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:57:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<sensor_msgs::msg::Image_<std::allocator<void> > >::publish(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.884642] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'   57 |             pub->publish(image_msg\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[7.884799] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.884948] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31\x1b[m\x1b[K,\n'}
+[7.885095] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[7.885237] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[7.885377] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[7.885520] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[7.885657] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[7.885793] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[7.885931] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[7.886069] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[7.886203] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[7.886340] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/xdainterface.h:65\x1b[m\x1b[K,\n'}
+[7.886503] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/xdainterface.cpp:62\x1b[m\x1b[K:\n'}
+[7.886641] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:185:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<MessageT, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, typename std::allocator<void>::rebind<_Tp1>::other>::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type> >::type>) [with MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; AllocatorT = std::allocator<void>; typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, typename std::allocator<void>::rebind<_Tp1>::other>::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type> >::type = std::default_delete<sensor_msgs::msg::Image_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.886804] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'  185 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(std::unique_ptr<MessageT, MessageDeleter> msg)\n'}
+[7.886943] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.887078] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:185:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<sensor_msgs::msg::Image_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::Image_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.887248] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'  185 |   publish(\x1b[01;36m\x1b[Kstd::unique_ptr<MessageT, MessageDeleter> msg\x1b[m\x1b[K)\n'}
+[7.887428] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[7.887575] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:209:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const MessageT&) [with MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.887745] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'  209 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const MessageT & msg)\n'}
+[7.887902] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.888047] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:209:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst sensor_msgs::msg::Image_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.888191] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'  209 |   publish(\x1b[01;36m\x1b[Kconst MessageT & msg\x1b[m\x1b[K)\n'}
+[7.888327] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[7.888475] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:226:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rcl_serialized_message_t&) [with MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; AllocatorT = std::allocator<void>; rcl_serialized_message_t = rcutils_uint8_array_t]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.888619] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'  226 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const rcl_serialized_message_t & serialized_msg)\n'}
+[7.888755] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.888890] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:226:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rcl_serialized_message_t&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rcutils_uint8_array_t&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[7.889033] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'  226 |   publish(\x1b[01;36m\x1b[Kconst rcl_serialized_message_t & serialized_msg\x1b[m\x1b[K)\n'}
+[7.889172] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.889305] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:232:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rclcpp::SerializedMessage&) [with MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.889444] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'  232 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const SerializedMessage & serialized_msg)\n'}
+[7.889578] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.889714] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:232:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::SerializedMessage&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.889853] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'  232 |   publish(\x1b[01;36m\x1b[Kconst SerializedMessage & serialized_msg\x1b[m\x1b[K)\n'}
+[7.889989] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.890125] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:246:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(rclcpp::LoanedMessage<MessageT, AllocatorT>&&) [with MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.890266] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'  246 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(rclcpp::LoanedMessage<MessageT, AllocatorT> && loaned_msg)\n'}
+[7.890402] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.890536] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:246:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::LoanedMessage<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.890700] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'  246 |   publish(\x1b[01;36m\x1b[Krclcpp::LoanedMessage<MessageT, AllocatorT> && loaned_msg\x1b[m\x1b[K)\n'}
+[7.890837] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.963955] (-) TimerEvent: {}
+[8.064700] (-) TimerEvent: {}
+[8.165419] (-) TimerEvent: {}
+[8.266144] (-) TimerEvent: {}
+[8.366896] (-) TimerEvent: {}
+[8.467636] (-) TimerEvent: {}
+[8.568342] (-) TimerEvent: {}
+[8.669068] (-) TimerEvent: {}
+[8.769799] (-) TimerEvent: {}
+[8.870541] (-) TimerEvent: {}
+[8.971309] (-) TimerEvent: {}
+[9.072050] (-) TimerEvent: {}
+[9.172776] (-) TimerEvent: {}
+[9.273511] (-) TimerEvent: {}
+[9.374260] (-) TimerEvent: {}
+[9.475040] (-) TimerEvent: {}
+[9.575794] (-) TimerEvent: {}
+[9.676537] (-) TimerEvent: {}
+[9.777281] (-) TimerEvent: {}
+[9.878019] (-) TimerEvent: {}
+[9.978755] (-) TimerEvent: {}
+[10.079504] (-) TimerEvent: {}
+[10.180244] (-) TimerEvent: {}
+[10.280998] (-) TimerEvent: {}
+[10.381735] (-) TimerEvent: {}
+[10.482464] (-) TimerEvent: {}
+[10.583203] (-) TimerEvent: {}
+[10.683950] (-) TimerEvent: {}
+[10.784696] (-) TimerEvent: {}
+[10.885470] (-) TimerEvent: {}
+[10.986225] (-) TimerEvent: {}
+[11.086956] (-) TimerEvent: {}
+[11.187689] (-) TimerEvent: {}
+[11.288417] (-) TimerEvent: {}
+[11.389144] (-) TimerEvent: {}
+[11.489878] (-) TimerEvent: {}
+[11.590610] (-) TimerEvent: {}
+[11.691383] (-) TimerEvent: {}
+[11.792119] (-) TimerEvent: {}
+[11.892856] (-) TimerEvent: {}
+[11.993597] (-) TimerEvent: {}
+[12.094339] (-) TimerEvent: {}
+[12.195069] (-) TimerEvent: {}
+[12.295831] (-) TimerEvent: {}
+[12.396563] (-) TimerEvent: {}
+[12.497296] (-) TimerEvent: {}
+[12.598032] (-) TimerEvent: {}
+[12.698766] (-) TimerEvent: {}
+[12.799510] (-) TimerEvent: {}
+[12.900244] (-) TimerEvent: {}
+[13.000962] (-) TimerEvent: {}
+[13.101715] (-) TimerEvent: {}
+[13.202457] (-) TimerEvent: {}
+[13.303195] (-) TimerEvent: {}
+[13.403947] (-) TimerEvent: {}
+[13.504665] (-) TimerEvent: {}
+[13.605371] (-) TimerEvent: {}
+[13.706091] (-) TimerEvent: {}
+[13.806810] (-) TimerEvent: {}
+[13.907566] (-) TimerEvent: {}
+[14.008283] (-) TimerEvent: {}
+[14.109022] (-) TimerEvent: {}
+[14.138215] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'make[2]: *** [CMakeFiles/xsens_mti_node.dir/build.make:90: CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o] Error 1\n'}
+[14.139331] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_mti_node.dir/all] Error 2\n'}
+[14.140539] (bluespace_ai_xsens_mti_driver) StderrLine: {'line': b'make: *** [Makefile:146: all] Error 2\n'}
+[14.142852] (bluespace_ai_xsens_mti_driver) CommandEnded: {'returncode': 2}
+[14.209163] (-) TimerEvent: {}
+[14.310210] (-) TimerEvent: {}
+[14.411368] (-) TimerEvent: {}
+[14.512807] (-) TimerEvent: {}
+[14.516905] (bluespace_ai_xsens_mti_driver) JobEnded: {'identifier': 'bluespace_ai_xsens_mti_driver', 'rc': 2}
+[14.528214] (-) EventReactorShutdown: {}

@@ -1,0 +1,931 @@
+[4.846s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[4.846s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffbc80caf0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffbc80caf0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffbc4a8be0>)
+[5.072s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.073s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.073s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.073s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.073s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[5.073s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.073s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/ros2_ws'
+[5.074s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.074s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[5.075s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[5.075s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[5.075s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[5.075s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[5.075s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[5.075s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[5.076s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[5.106s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[5.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[5.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[5.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[5.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[5.107s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[5.108s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[5.108s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[5.108s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[5.109s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[5.109s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[5.109s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[5.110s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[5.110s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[5.110s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[5.110s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[5.110s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[5.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[5.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[5.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[5.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[5.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[5.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[5.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[5.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[5.112s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[5.112s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[5.112s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[5.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera) by extensions ['ignore', 'ignore_ament_install']
+[5.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera) by extension 'ignore'
+[5.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera) by extension 'ignore_ament_install'
+[5.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera) by extensions ['colcon_pkg']
+[5.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera) by extension 'colcon_pkg'
+[5.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera) by extensions ['colcon_meta']
+[5.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera) by extension 'colcon_meta'
+[5.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera) by extensions ['ros']
+[5.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera) by extension 'ros'
+[5.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera) by extensions ['cmake', 'python']
+[5.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera) by extension 'cmake'
+[5.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera) by extension 'python'
+[5.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera) by extensions ['python_setup_py']
+[5.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera) by extension 'python_setup_py'
+[5.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson) by extensions ['ignore', 'ignore_ament_install']
+[5.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson) by extension 'ignore'
+[5.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson) by extension 'ignore_ament_install'
+[5.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson) by extensions ['colcon_pkg']
+[5.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson) by extension 'colcon_pkg'
+[5.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson) by extensions ['colcon_meta']
+[5.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson) by extension 'colcon_meta'
+[5.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson) by extensions ['ros']
+[5.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson) by extension 'ros'
+[5.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson) by extensions ['cmake', 'python']
+[5.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson) by extension 'cmake'
+[5.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson) by extension 'python'
+[5.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson) by extensions ['python_setup_py']
+[5.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson) by extension 'python_setup_py'
+[5.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX219) by extensions ['ignore', 'ignore_ament_install']
+[5.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX219) by extension 'ignore'
+[5.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX219) by extension 'ignore_ament_install'
+[5.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX219) by extensions ['colcon_pkg']
+[5.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX219) by extension 'colcon_pkg'
+[5.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX219) by extensions ['colcon_meta']
+[5.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX219) by extension 'colcon_meta'
+[5.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX219) by extensions ['ros']
+[5.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX219) by extension 'ros'
+[5.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX219) by extensions ['cmake', 'python']
+[5.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX219) by extension 'cmake'
+[5.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX219) by extension 'python'
+[5.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX219) by extensions ['python_setup_py']
+[5.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX219) by extension 'python_setup_py'
+[5.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX219/res) by extensions ['ignore', 'ignore_ament_install']
+[5.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX219/res) by extension 'ignore'
+[5.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX219/res) by extension 'ignore_ament_install'
+[5.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX219/res) by extensions ['colcon_pkg']
+[5.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX219/res) by extension 'colcon_pkg'
+[5.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX219/res) by extensions ['colcon_meta']
+[5.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX219/res) by extension 'colcon_meta'
+[5.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX219/res) by extensions ['ros']
+[5.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX219/res) by extension 'ros'
+[5.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX219/res) by extensions ['cmake', 'python']
+[5.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX219/res) by extension 'cmake'
+[5.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX219/res) by extension 'python'
+[5.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX219/res) by extensions ['python_setup_py']
+[5.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX219/res) by extension 'python_setup_py'
+[5.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477) by extensions ['ignore', 'ignore_ament_install']
+[5.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477) by extension 'ignore'
+[5.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477) by extension 'ignore_ament_install'
+[5.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477) by extensions ['colcon_pkg']
+[5.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477) by extension 'colcon_pkg'
+[5.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477) by extensions ['colcon_meta']
+[5.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477) by extension 'colcon_meta'
+[5.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477) by extensions ['ros']
+[5.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477) by extension 'ros'
+[5.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477) by extensions ['cmake', 'python']
+[5.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477) by extension 'cmake'
+[5.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477) by extension 'python'
+[5.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477) by extensions ['python_setup_py']
+[5.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477) by extension 'python_setup_py'
+[5.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/AF_LENS) by extensions ['ignore', 'ignore_ament_install']
+[5.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/AF_LENS) by extension 'ignore'
+[5.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/AF_LENS) by extension 'ignore_ament_install'
+[5.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/AF_LENS) by extensions ['colcon_pkg']
+[5.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/AF_LENS) by extension 'colcon_pkg'
+[5.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/AF_LENS) by extensions ['colcon_meta']
+[5.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/AF_LENS) by extension 'colcon_meta'
+[5.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/AF_LENS) by extensions ['ros']
+[5.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/AF_LENS) by extension 'ros'
+[5.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/AF_LENS) by extensions ['cmake', 'python']
+[5.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/AF_LENS) by extension 'cmake'
+[5.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/AF_LENS) by extension 'python'
+[5.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/AF_LENS) by extensions ['python_setup_py']
+[5.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/AF_LENS) by extension 'python_setup_py'
+[5.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/AF_LENS/res) by extensions ['ignore', 'ignore_ament_install']
+[5.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/AF_LENS/res) by extension 'ignore'
+[5.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/AF_LENS/res) by extension 'ignore_ament_install'
+[5.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/AF_LENS/res) by extensions ['colcon_pkg']
+[5.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/AF_LENS/res) by extension 'colcon_pkg'
+[5.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/AF_LENS/res) by extensions ['colcon_meta']
+[5.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/AF_LENS/res) by extension 'colcon_meta'
+[5.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/AF_LENS/res) by extensions ['ros']
+[5.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/AF_LENS/res) by extension 'ros'
+[5.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/AF_LENS/res) by extensions ['cmake', 'python']
+[5.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/AF_LENS/res) by extension 'cmake'
+[5.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/AF_LENS/res) by extension 'python'
+[5.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/AF_LENS/res) by extensions ['python_setup_py']
+[5.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/AF_LENS/res) by extension 'python_setup_py'
+[5.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver) by extensions ['ignore', 'ignore_ament_install']
+[5.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver) by extension 'ignore'
+[5.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver) by extension 'ignore_ament_install'
+[5.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver) by extensions ['colcon_pkg']
+[5.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver) by extension 'colcon_pkg'
+[5.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver) by extensions ['colcon_meta']
+[5.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver) by extension 'colcon_meta'
+[5.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver) by extensions ['ros']
+[5.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver) by extension 'ros'
+[5.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver) by extensions ['cmake', 'python']
+[5.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver) by extension 'cmake'
+[5.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver) by extension 'python'
+[5.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver) by extensions ['python_setup_py']
+[5.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver) by extension 'python_setup_py'
+[5.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver/Nano) by extensions ['ignore', 'ignore_ament_install']
+[5.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver/Nano) by extension 'ignore'
+[5.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver/Nano) by extension 'ignore_ament_install'
+[5.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver/Nano) by extensions ['colcon_pkg']
+[5.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver/Nano) by extension 'colcon_pkg'
+[5.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver/Nano) by extensions ['colcon_meta']
+[5.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver/Nano) by extension 'colcon_meta'
+[5.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver/Nano) by extensions ['ros']
+[5.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver/Nano) by extension 'ros'
+[5.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver/Nano) by extensions ['cmake', 'python']
+[5.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver/Nano) by extension 'cmake'
+[5.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver/Nano) by extension 'python'
+[5.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver/Nano) by extensions ['python_setup_py']
+[5.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver/Nano) by extension 'python_setup_py'
+[5.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver/XavierNx) by extensions ['ignore', 'ignore_ament_install']
+[5.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver/XavierNx) by extension 'ignore'
+[5.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver/XavierNx) by extension 'ignore_ament_install'
+[5.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver/XavierNx) by extensions ['colcon_pkg']
+[5.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver/XavierNx) by extension 'colcon_pkg'
+[5.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver/XavierNx) by extensions ['colcon_meta']
+[5.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver/XavierNx) by extension 'colcon_meta'
+[5.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver/XavierNx) by extensions ['ros']
+[5.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver/XavierNx) by extension 'ros'
+[5.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver/XavierNx) by extensions ['cmake', 'python']
+[5.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver/XavierNx) by extension 'cmake'
+[5.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver/XavierNx) by extension 'python'
+[5.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver/XavierNx) by extensions ['python_setup_py']
+[5.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/IMX477/driver/XavierNx) by extension 'python_setup_py'
+[5.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/JetsonNano_PTZ) by extensions ['ignore', 'ignore_ament_install']
+[5.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/JetsonNano_PTZ) by extension 'ignore'
+[5.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/JetsonNano_PTZ) by extension 'ignore_ament_install'
+[5.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/JetsonNano_PTZ) by extensions ['colcon_pkg']
+[5.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/JetsonNano_PTZ) by extension 'colcon_pkg'
+[5.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/JetsonNano_PTZ) by extensions ['colcon_meta']
+[5.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/JetsonNano_PTZ) by extension 'colcon_meta'
+[5.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/JetsonNano_PTZ) by extensions ['ros']
+[5.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/JetsonNano_PTZ) by extension 'ros'
+[5.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/JetsonNano_PTZ) by extensions ['cmake', 'python']
+[5.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/JetsonNano_PTZ) by extension 'cmake'
+[5.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/JetsonNano_PTZ) by extension 'python'
+[5.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/JetsonNano_PTZ) by extensions ['python_setup_py']
+[5.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/JetsonNano_PTZ) by extension 'python_setup_py'
+[5.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/JetsonNano_PTZ/data) by extensions ['ignore', 'ignore_ament_install']
+[5.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/JetsonNano_PTZ/data) by extension 'ignore'
+[5.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/JetsonNano_PTZ/data) by extension 'ignore_ament_install'
+[5.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/JetsonNano_PTZ/data) by extensions ['colcon_pkg']
+[5.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/JetsonNano_PTZ/data) by extension 'colcon_pkg'
+[5.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/JetsonNano_PTZ/data) by extensions ['colcon_meta']
+[5.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/JetsonNano_PTZ/data) by extension 'colcon_meta'
+[5.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/JetsonNano_PTZ/data) by extensions ['ros']
+[5.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/JetsonNano_PTZ/data) by extension 'ros'
+[5.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/JetsonNano_PTZ/data) by extensions ['cmake', 'python']
+[5.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/JetsonNano_PTZ/data) by extension 'cmake'
+[5.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/JetsonNano_PTZ/data) by extension 'python'
+[5.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/JetsonNano_PTZ/data) by extensions ['python_setup_py']
+[5.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/JetsonNano_PTZ/data) by extension 'python_setup_py'
+[5.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety) by extensions ['ignore', 'ignore_ament_install']
+[5.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety) by extension 'ignore'
+[5.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety) by extension 'ignore_ament_install'
+[5.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety) by extensions ['colcon_pkg']
+[5.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety) by extension 'colcon_pkg'
+[5.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety) by extensions ['colcon_meta']
+[5.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety) by extension 'colcon_meta'
+[5.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety) by extensions ['ros']
+[5.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety) by extension 'ros'
+[5.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety) by extensions ['cmake', 'python']
+[5.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety) by extension 'cmake'
+[5.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety) by extension 'python'
+[5.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety) by extensions ['python_setup_py']
+[5.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety) by extension 'python_setup_py'
+[5.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver) by extensions ['ignore', 'ignore_ament_install']
+[5.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver) by extension 'ignore'
+[5.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver) by extension 'ignore_ament_install'
+[5.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver) by extensions ['colcon_pkg']
+[5.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver) by extension 'colcon_pkg'
+[5.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver) by extensions ['colcon_meta']
+[5.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver) by extension 'colcon_meta'
+[5.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver) by extensions ['ros']
+[5.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver) by extension 'ros'
+[5.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver) by extensions ['cmake', 'python']
+[5.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver) by extension 'cmake'
+[5.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver) by extension 'python'
+[5.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver) by extensions ['python_setup_py']
+[5.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver) by extension 'python_setup_py'
+[5.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver/Nano) by extensions ['ignore', 'ignore_ament_install']
+[5.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver/Nano) by extension 'ignore'
+[5.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver/Nano) by extension 'ignore_ament_install'
+[5.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver/Nano) by extensions ['colcon_pkg']
+[5.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver/Nano) by extension 'colcon_pkg'
+[5.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver/Nano) by extensions ['colcon_meta']
+[5.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver/Nano) by extension 'colcon_meta'
+[5.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver/Nano) by extensions ['ros']
+[5.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver/Nano) by extension 'ros'
+[5.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver/Nano) by extensions ['cmake', 'python']
+[5.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver/Nano) by extension 'cmake'
+[5.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver/Nano) by extension 'python'
+[5.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver/Nano) by extensions ['python_setup_py']
+[5.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver/Nano) by extension 'python_setup_py'
+[5.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver/XavierNx) by extensions ['ignore', 'ignore_ament_install']
+[5.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver/XavierNx) by extension 'ignore'
+[5.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver/XavierNx) by extension 'ignore_ament_install'
+[5.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver/XavierNx) by extensions ['colcon_pkg']
+[5.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver/XavierNx) by extension 'colcon_pkg'
+[5.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver/XavierNx) by extensions ['colcon_meta']
+[5.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver/XavierNx) by extension 'colcon_meta'
+[5.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver/XavierNx) by extensions ['ros']
+[5.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver/XavierNx) by extension 'ros'
+[5.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver/XavierNx) by extensions ['cmake', 'python']
+[5.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver/XavierNx) by extension 'cmake'
+[5.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver/XavierNx) by extension 'python'
+[5.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver/XavierNx) by extensions ['python_setup_py']
+[5.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/driver/XavierNx) by extension 'python_setup_py'
+[5.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example) by extensions ['ignore', 'ignore_ament_install']
+[5.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example) by extension 'ignore'
+[5.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example) by extension 'ignore_ament_install'
+[5.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example) by extensions ['colcon_pkg']
+[5.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example) by extension 'colcon_pkg'
+[5.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example) by extensions ['colcon_meta']
+[5.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example) by extension 'colcon_meta'
+[5.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example) by extensions ['ros']
+[5.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example) by extension 'ros'
+[5.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example) by extensions ['cmake', 'python']
+[5.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example) by extension 'cmake'
+[5.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example) by extension 'python'
+[5.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example) by extensions ['python_setup_py']
+[5.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example) by extension 'python_setup_py'
+[5.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/focus) by extensions ['ignore', 'ignore_ament_install']
+[5.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/focus) by extension 'ignore'
+[5.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/focus) by extension 'ignore_ament_install'
+[5.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/focus) by extensions ['colcon_pkg']
+[5.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/focus) by extension 'colcon_pkg'
+[5.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/focus) by extensions ['colcon_meta']
+[5.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/focus) by extension 'colcon_meta'
+[5.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/focus) by extensions ['ros']
+[5.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/focus) by extension 'ros'
+[5.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/focus) by extensions ['cmake', 'python']
+[5.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/focus) by extension 'cmake'
+[5.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/focus) by extension 'python'
+[5.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/focus) by extensions ['python_setup_py']
+[5.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/focus) by extension 'python_setup_py'
+[5.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/gstreamer-tools) by extensions ['ignore', 'ignore_ament_install']
+[5.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/gstreamer-tools) by extension 'ignore'
+[5.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/gstreamer-tools) by extension 'ignore_ament_install'
+[5.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/gstreamer-tools) by extensions ['colcon_pkg']
+[5.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/gstreamer-tools) by extension 'colcon_pkg'
+[5.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/gstreamer-tools) by extensions ['colcon_meta']
+[5.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/gstreamer-tools) by extension 'colcon_meta'
+[5.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/gstreamer-tools) by extensions ['ros']
+[5.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/gstreamer-tools) by extension 'ros'
+[5.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/gstreamer-tools) by extensions ['cmake', 'python']
+[5.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/gstreamer-tools) by extension 'cmake'
+[5.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/gstreamer-tools) by extension 'python'
+[5.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/gstreamer-tools) by extensions ['python_setup_py']
+[5.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/gstreamer-tools) by extension 'python_setup_py'
+[5.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/gstreamer-tools/images) by extensions ['ignore', 'ignore_ament_install']
+[5.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/gstreamer-tools/images) by extension 'ignore'
+[5.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/gstreamer-tools/images) by extension 'ignore_ament_install'
+[5.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/gstreamer-tools/images) by extensions ['colcon_pkg']
+[5.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/gstreamer-tools/images) by extension 'colcon_pkg'
+[5.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/gstreamer-tools/images) by extensions ['colcon_meta']
+[5.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/gstreamer-tools/images) by extension 'colcon_meta'
+[5.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/gstreamer-tools/images) by extensions ['ros']
+[5.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/gstreamer-tools/images) by extension 'ros'
+[5.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/gstreamer-tools/images) by extensions ['cmake', 'python']
+[5.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/gstreamer-tools/images) by extension 'cmake'
+[5.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/gstreamer-tools/images) by extension 'python'
+[5.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/gstreamer-tools/images) by extensions ['python_setup_py']
+[5.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/gstreamer-tools/images) by extension 'python_setup_py'
+[5.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/scripts) by extensions ['ignore', 'ignore_ament_install']
+[5.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/scripts) by extension 'ignore'
+[5.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/scripts) by extension 'ignore_ament_install'
+[5.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/scripts) by extensions ['colcon_pkg']
+[5.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/scripts) by extension 'colcon_pkg'
+[5.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/scripts) by extensions ['colcon_meta']
+[5.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/scripts) by extension 'colcon_meta'
+[5.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/scripts) by extensions ['ros']
+[5.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/scripts) by extension 'ros'
+[5.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/scripts) by extensions ['cmake', 'python']
+[5.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/scripts) by extension 'cmake'
+[5.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/scripts) by extension 'python'
+[5.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/scripts) by extensions ['python_setup_py']
+[5.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/example/scripts) by extension 'python_setup_py'
+[5.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger) by extensions ['ignore', 'ignore_ament_install']
+[5.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger) by extension 'ignore'
+[5.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger) by extension 'ignore_ament_install'
+[5.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger) by extensions ['colcon_pkg']
+[5.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger) by extension 'colcon_pkg'
+[5.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger) by extensions ['colcon_meta']
+[5.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger) by extension 'colcon_meta'
+[5.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger) by extensions ['ros']
+[5.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger) by extension 'ros'
+[5.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger) by extensions ['cmake', 'python']
+[5.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger) by extension 'cmake'
+[5.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger) by extension 'python'
+[5.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger) by extensions ['python_setup_py']
+[5.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger) by extension 'python_setup_py'
+[5.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[5.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger/__pycache__) by extension 'ignore'
+[5.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger/__pycache__) by extension 'ignore_ament_install'
+[5.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger/__pycache__) by extensions ['colcon_pkg']
+[5.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger/__pycache__) by extension 'colcon_pkg'
+[5.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger/__pycache__) by extensions ['colcon_meta']
+[5.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger/__pycache__) by extension 'colcon_meta'
+[5.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger/__pycache__) by extensions ['ros']
+[5.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger/__pycache__) by extension 'ros'
+[5.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger/__pycache__) by extensions ['cmake', 'python']
+[5.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger/__pycache__) by extension 'cmake'
+[5.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger/__pycache__) by extension 'python'
+[5.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger/__pycache__) by extensions ['python_setup_py']
+[5.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger/__pycache__) by extension 'python_setup_py'
+[5.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger/scripts) by extensions ['ignore', 'ignore_ament_install']
+[5.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger/scripts) by extension 'ignore'
+[5.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger/scripts) by extension 'ignore_ament_install'
+[5.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger/scripts) by extensions ['colcon_pkg']
+[5.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger/scripts) by extension 'colcon_pkg'
+[5.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger/scripts) by extensions ['colcon_meta']
+[5.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger/scripts) by extension 'colcon_meta'
+[5.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger/scripts) by extensions ['ros']
+[5.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger/scripts) by extension 'ros'
+[5.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger/scripts) by extensions ['cmake', 'python']
+[5.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger/scripts) by extension 'cmake'
+[5.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger/scripts) by extension 'python'
+[5.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger/scripts) by extensions ['python_setup_py']
+[5.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/external_trigger/scripts) by extension 'python_setup_py'
+[5.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo) by extensions ['ignore', 'ignore_ament_install']
+[5.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo) by extension 'ignore'
+[5.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo) by extension 'ignore_ament_install'
+[5.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo) by extensions ['colcon_pkg']
+[5.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo) by extension 'colcon_pkg'
+[5.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo) by extensions ['colcon_meta']
+[5.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo) by extension 'colcon_meta'
+[5.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo) by extensions ['ros']
+[5.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo) by extension 'ros'
+[5.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo) by extensions ['cmake', 'python']
+[5.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo) by extension 'cmake'
+[5.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo) by extension 'python'
+[5.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo) by extensions ['python_setup_py']
+[5.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo) by extension 'python_setup_py'
+[5.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/calib_result) by extensions ['ignore', 'ignore_ament_install']
+[5.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/calib_result) by extension 'ignore'
+[5.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/calib_result) by extension 'ignore_ament_install'
+[5.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/calib_result) by extensions ['colcon_pkg']
+[5.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/calib_result) by extension 'colcon_pkg'
+[5.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/calib_result) by extensions ['colcon_meta']
+[5.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/calib_result) by extension 'colcon_meta'
+[5.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/calib_result) by extensions ['ros']
+[5.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/calib_result) by extension 'ros'
+[5.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/calib_result) by extensions ['cmake', 'python']
+[5.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/calib_result) by extension 'cmake'
+[5.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/calib_result) by extension 'python'
+[5.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/calib_result) by extensions ['python_setup_py']
+[5.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/calib_result) by extension 'python_setup_py'
+[5.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/pairs) by extensions ['ignore', 'ignore_ament_install']
+[5.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/pairs) by extension 'ignore'
+[5.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/pairs) by extension 'ignore_ament_install'
+[5.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/pairs) by extensions ['colcon_pkg']
+[5.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/pairs) by extension 'colcon_pkg'
+[5.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/pairs) by extensions ['colcon_meta']
+[5.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/pairs) by extension 'colcon_meta'
+[5.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/pairs) by extensions ['ros']
+[5.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/pairs) by extension 'ros'
+[5.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/pairs) by extensions ['cmake', 'python']
+[5.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/pairs) by extension 'cmake'
+[5.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/pairs) by extension 'python'
+[5.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/pairs) by extensions ['python_setup_py']
+[5.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/pairs) by extension 'python_setup_py'
+[5.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/scenes) by extensions ['ignore', 'ignore_ament_install']
+[5.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/scenes) by extension 'ignore'
+[5.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/scenes) by extension 'ignore_ament_install'
+[5.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/scenes) by extensions ['colcon_pkg']
+[5.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/scenes) by extension 'colcon_pkg'
+[5.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/scenes) by extensions ['colcon_meta']
+[5.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/scenes) by extension 'colcon_meta'
+[5.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/scenes) by extensions ['ros']
+[5.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/scenes) by extension 'ros'
+[5.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/scenes) by extensions ['cmake', 'python']
+[5.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/scenes) by extension 'cmake'
+[5.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/scenes) by extension 'python'
+[5.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/scenes) by extensions ['python_setup_py']
+[5.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Jetvariety/stereo_depth_demo/scenes) by extension 'python_setup_py'
+[5.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Multi-Camera Adapter) by extensions ['ignore', 'ignore_ament_install']
+[5.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Multi-Camera Adapter) by extension 'ignore'
+[5.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Multi-Camera Adapter) by extension 'ignore_ament_install'
+[5.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Multi-Camera Adapter) by extensions ['colcon_pkg']
+[5.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Multi-Camera Adapter) by extension 'colcon_pkg'
+[5.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Multi-Camera Adapter) by extensions ['colcon_meta']
+[5.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Multi-Camera Adapter) by extension 'colcon_meta'
+[5.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Multi-Camera Adapter) by extensions ['ros']
+[5.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Multi-Camera Adapter) by extension 'ros'
+[5.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Multi-Camera Adapter) by extensions ['cmake', 'python']
+[5.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Multi-Camera Adapter) by extension 'cmake'
+[5.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Multi-Camera Adapter) by extension 'python'
+[5.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Multi-Camera Adapter) by extensions ['python_setup_py']
+[5.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/Jetson/Multi-Camera Adapter) by extension 'python_setup_py'
+[5.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI) by extensions ['ignore', 'ignore_ament_install']
+[5.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI) by extension 'ignore'
+[5.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI) by extension 'ignore_ament_install'
+[5.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI) by extensions ['colcon_pkg']
+[5.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI) by extension 'colcon_pkg'
+[5.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI) by extensions ['colcon_meta']
+[5.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI) by extension 'colcon_meta'
+[5.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI) by extensions ['ros']
+[5.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI) by extension 'ros'
+[5.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI) by extensions ['cmake', 'python']
+[5.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI) by extension 'cmake'
+[5.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI) by extension 'python'
+[5.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI) by extensions ['python_setup_py']
+[5.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI) by extension 'python_setup_py'
+[5.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/ISP) by extensions ['ignore', 'ignore_ament_install']
+[5.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/ISP) by extension 'ignore'
+[5.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/ISP) by extension 'ignore_ament_install'
+[5.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/ISP) by extensions ['colcon_pkg']
+[5.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/ISP) by extension 'colcon_pkg'
+[5.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/ISP) by extensions ['colcon_meta']
+[5.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/ISP) by extension 'colcon_meta'
+[5.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/ISP) by extensions ['ros']
+[5.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/ISP) by extension 'ros'
+[5.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/ISP) by extensions ['cmake', 'python']
+[5.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/ISP) by extension 'cmake'
+[5.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/ISP) by extension 'python'
+[5.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/ISP) by extensions ['python_setup_py']
+[5.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/ISP) by extension 'python_setup_py'
+[5.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/ISP/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[5.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/ISP/__pycache__) by extension 'ignore'
+[5.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/ISP/__pycache__) by extension 'ignore_ament_install'
+[5.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/ISP/__pycache__) by extensions ['colcon_pkg']
+[5.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/ISP/__pycache__) by extension 'colcon_pkg'
+[5.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/ISP/__pycache__) by extensions ['colcon_meta']
+[5.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/ISP/__pycache__) by extension 'colcon_meta'
+[5.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/ISP/__pycache__) by extensions ['ros']
+[5.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/ISP/__pycache__) by extension 'ros'
+[5.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/ISP/__pycache__) by extensions ['cmake', 'python']
+[5.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/ISP/__pycache__) by extension 'cmake'
+[5.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/ISP/__pycache__) by extension 'python'
+[5.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/ISP/__pycache__) by extensions ['python_setup_py']
+[5.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/ISP/__pycache__) by extension 'python_setup_py'
+[5.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/images) by extensions ['ignore', 'ignore_ament_install']
+[5.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/images) by extension 'ignore'
+[5.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/images) by extension 'ignore_ament_install'
+[5.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/images) by extensions ['colcon_pkg']
+[5.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/images) by extension 'colcon_pkg'
+[5.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/images) by extensions ['colcon_meta']
+[5.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/images) by extension 'colcon_meta'
+[5.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/images) by extensions ['ros']
+[5.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/images) by extension 'ros'
+[5.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/images) by extensions ['cmake', 'python']
+[5.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/images) by extension 'cmake'
+[5.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/images) by extension 'python'
+[5.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/images) by extensions ['python_setup_py']
+[5.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/images) by extension 'python_setup_py'
+[5.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table) by extensions ['ignore', 'ignore_ament_install']
+[5.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table) by extension 'ignore'
+[5.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table) by extension 'ignore_ament_install'
+[5.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table) by extensions ['colcon_pkg']
+[5.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table) by extension 'colcon_pkg'
+[5.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table) by extensions ['colcon_meta']
+[5.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table) by extension 'colcon_meta'
+[5.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table) by extensions ['ros']
+[5.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table) by extension 'ros'
+[5.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table) by extensions ['cmake', 'python']
+[5.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table) by extension 'cmake'
+[5.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table) by extension 'python'
+[5.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table) by extensions ['python_setup_py']
+[5.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table) by extension 'python_setup_py'
+[5.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/ar1820) by extensions ['ignore', 'ignore_ament_install']
+[5.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/ar1820) by extension 'ignore'
+[5.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/ar1820) by extension 'ignore_ament_install'
+[5.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/ar1820) by extensions ['colcon_pkg']
+[5.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/ar1820) by extension 'colcon_pkg'
+[5.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/ar1820) by extensions ['colcon_meta']
+[5.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/ar1820) by extension 'colcon_meta'
+[5.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/ar1820) by extensions ['ros']
+[5.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/ar1820) by extension 'ros'
+[5.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/ar1820) by extensions ['cmake', 'python']
+[5.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/ar1820) by extension 'cmake'
+[5.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/ar1820) by extension 'python'
+[5.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/ar1820) by extensions ['python_setup_py']
+[5.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/ar1820) by extension 'python_setup_py'
+[5.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx135) by extensions ['ignore', 'ignore_ament_install']
+[5.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx135) by extension 'ignore'
+[5.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx135) by extension 'ignore_ament_install'
+[5.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx135) by extensions ['colcon_pkg']
+[5.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx135) by extension 'colcon_pkg'
+[5.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx135) by extensions ['colcon_meta']
+[5.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx135) by extension 'colcon_meta'
+[5.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx135) by extensions ['ros']
+[5.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx135) by extension 'ros'
+[5.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx135) by extensions ['cmake', 'python']
+[5.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx135) by extension 'cmake'
+[5.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx135) by extension 'python'
+[5.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx135) by extensions ['python_setup_py']
+[5.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx135) by extension 'python_setup_py'
+[5.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx219) by extensions ['ignore', 'ignore_ament_install']
+[5.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx219) by extension 'ignore'
+[5.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx219) by extension 'ignore_ament_install'
+[5.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx219) by extensions ['colcon_pkg']
+[5.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx219) by extension 'colcon_pkg'
+[5.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx219) by extensions ['colcon_meta']
+[5.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx219) by extension 'colcon_meta'
+[5.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx219) by extensions ['ros']
+[5.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx219) by extension 'ros'
+[5.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx219) by extensions ['cmake', 'python']
+[5.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx219) by extension 'cmake'
+[5.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx219) by extension 'python'
+[5.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx219) by extensions ['python_setup_py']
+[5.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx219) by extension 'python_setup_py'
+[5.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx230) by extensions ['ignore', 'ignore_ament_install']
+[5.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx230) by extension 'ignore'
+[5.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx230) by extension 'ignore_ament_install'
+[5.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx230) by extensions ['colcon_pkg']
+[5.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx230) by extension 'colcon_pkg'
+[5.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx230) by extensions ['colcon_meta']
+[5.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx230) by extension 'colcon_meta'
+[5.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx230) by extensions ['ros']
+[5.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx230) by extension 'ros'
+[5.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx230) by extensions ['cmake', 'python']
+[5.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx230) by extension 'cmake'
+[5.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx230) by extension 'python'
+[5.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx230) by extensions ['python_setup_py']
+[5.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx230) by extension 'python_setup_py'
+[5.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx298) by extensions ['ignore', 'ignore_ament_install']
+[5.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx298) by extension 'ignore'
+[5.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx298) by extension 'ignore_ament_install'
+[5.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx298) by extensions ['colcon_pkg']
+[5.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx298) by extension 'colcon_pkg'
+[5.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx298) by extensions ['colcon_meta']
+[5.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx298) by extension 'colcon_meta'
+[5.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx298) by extensions ['ros']
+[5.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx298) by extension 'ros'
+[5.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx298) by extensions ['cmake', 'python']
+[5.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx298) by extension 'cmake'
+[5.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx298) by extension 'python'
+[5.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx298) by extensions ['python_setup_py']
+[5.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/imx298) by extension 'python_setup_py'
+[5.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/ov5647) by extensions ['ignore', 'ignore_ament_install']
+[5.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/ov5647) by extension 'ignore'
+[5.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/ov5647) by extension 'ignore_ament_install'
+[5.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/ov5647) by extensions ['colcon_pkg']
+[5.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/ov5647) by extension 'colcon_pkg'
+[5.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/ov5647) by extensions ['colcon_meta']
+[5.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/ov5647) by extension 'colcon_meta'
+[5.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/ov5647) by extensions ['ros']
+[5.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/ov5647) by extension 'ros'
+[5.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/ov5647) by extensions ['cmake', 'python']
+[5.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/ov5647) by extension 'cmake'
+[5.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/ov5647) by extension 'python'
+[5.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/ov5647) by extensions ['python_setup_py']
+[5.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lens_shading_table/ov5647) by extension 'python_setup_py'
+[5.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lib) by extensions ['ignore', 'ignore_ament_install']
+[5.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lib) by extension 'ignore'
+[5.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lib) by extension 'ignore_ament_install'
+[5.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lib) by extensions ['colcon_pkg']
+[5.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lib) by extension 'colcon_pkg'
+[5.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lib) by extensions ['colcon_meta']
+[5.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lib) by extension 'colcon_meta'
+[5.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lib) by extensions ['ros']
+[5.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lib) by extension 'ros'
+[5.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lib) by extensions ['cmake', 'python']
+[5.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lib) by extension 'cmake'
+[5.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lib) by extension 'python'
+[5.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lib) by extensions ['python_setup_py']
+[5.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lib) by extension 'python_setup_py'
+[5.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lib/aarch64) by extensions ['ignore', 'ignore_ament_install']
+[5.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lib/aarch64) by extension 'ignore'
+[5.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lib/aarch64) by extension 'ignore_ament_install'
+[5.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lib/aarch64) by extensions ['colcon_pkg']
+[5.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lib/aarch64) by extension 'colcon_pkg'
+[5.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lib/aarch64) by extensions ['colcon_meta']
+[5.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lib/aarch64) by extension 'colcon_meta'
+[5.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lib/aarch64) by extensions ['ros']
+[5.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lib/aarch64) by extension 'ros'
+[5.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lib/aarch64) by extensions ['cmake', 'python']
+[5.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lib/aarch64) by extension 'cmake'
+[5.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lib/aarch64) by extension 'python'
+[5.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lib/aarch64) by extensions ['python_setup_py']
+[5.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/lib/aarch64) by extension 'python_setup_py'
+[5.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python) by extensions ['ignore', 'ignore_ament_install']
+[5.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python) by extension 'ignore'
+[5.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python) by extension 'ignore_ament_install'
+[5.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python) by extensions ['colcon_pkg']
+[5.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python) by extension 'colcon_pkg'
+[5.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python) by extensions ['colcon_meta']
+[5.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python) by extension 'colcon_meta'
+[5.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python) by extensions ['ros']
+[5.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python) by extension 'ros'
+[5.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python) by extensions ['cmake', 'python']
+[5.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python) by extension 'cmake'
+[5.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python) by extension 'python'
+[5.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python) by extensions ['python_setup_py']
+[5.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python) by extension 'python_setup_py'
+[5.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess) by extensions ['ignore', 'ignore_ament_install']
+[5.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess) by extension 'ignore'
+[5.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess) by extension 'ignore_ament_install'
+[5.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess) by extensions ['colcon_pkg']
+[5.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess) by extension 'colcon_pkg'
+[5.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess) by extensions ['colcon_meta']
+[5.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess) by extension 'colcon_meta'
+[5.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess) by extensions ['ros']
+[5.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess) by extension 'ros'
+[5.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess) by extensions ['cmake', 'python']
+[5.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess) by extension 'cmake'
+[5.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess) by extension 'python'
+[5.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess) by extensions ['python_setup_py']
+[5.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess) by extension 'python_setup_py'
+[5.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[5.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/__pycache__) by extension 'ignore'
+[5.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/__pycache__) by extension 'ignore_ament_install'
+[5.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/__pycache__) by extensions ['colcon_pkg']
+[5.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/__pycache__) by extension 'colcon_pkg'
+[5.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/__pycache__) by extensions ['colcon_meta']
+[5.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/__pycache__) by extension 'colcon_meta'
+[5.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/__pycache__) by extensions ['ros']
+[5.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/__pycache__) by extension 'ros'
+[5.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/__pycache__) by extensions ['cmake', 'python']
+[5.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/__pycache__) by extension 'cmake'
+[5.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/__pycache__) by extension 'python'
+[5.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/__pycache__) by extensions ['python_setup_py']
+[5.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/__pycache__) by extension 'python_setup_py'
+[5.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/data) by extensions ['ignore', 'ignore_ament_install']
+[5.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/data) by extension 'ignore'
+[5.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/data) by extension 'ignore_ament_install'
+[5.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/data) by extensions ['colcon_pkg']
+[5.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/data) by extension 'colcon_pkg'
+[5.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/data) by extensions ['colcon_meta']
+[5.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/data) by extension 'colcon_meta'
+[5.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/data) by extensions ['ros']
+[5.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/data) by extension 'ros'
+[5.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/data) by extensions ['cmake', 'python']
+[5.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/data) by extension 'cmake'
+[5.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/data) by extension 'python'
+[5.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/data) by extensions ['python_setup_py']
+[5.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/data) by extension 'python_setup_py'
+[5.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/lens_table) by extensions ['ignore', 'ignore_ament_install']
+[5.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/lens_table) by extension 'ignore'
+[5.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/lens_table) by extension 'ignore_ament_install'
+[5.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/lens_table) by extensions ['colcon_pkg']
+[5.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/lens_table) by extension 'colcon_pkg'
+[5.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/lens_table) by extensions ['colcon_meta']
+[5.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/lens_table) by extension 'colcon_meta'
+[5.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/lens_table) by extensions ['ros']
+[5.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/lens_table) by extension 'ros'
+[5.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/lens_table) by extensions ['cmake', 'python']
+[5.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/lens_table) by extension 'cmake'
+[5.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/lens_table) by extension 'python'
+[5.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/lens_table) by extensions ['python_setup_py']
+[5.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/lens_table) by extension 'python_setup_py'
+[5.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/lens_table/imx230) by extensions ['ignore', 'ignore_ament_install']
+[5.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/lens_table/imx230) by extension 'ignore'
+[5.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/lens_table/imx230) by extension 'ignore_ament_install'
+[5.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/lens_table/imx230) by extensions ['colcon_pkg']
+[5.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/lens_table/imx230) by extension 'colcon_pkg'
+[5.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/lens_table/imx230) by extensions ['colcon_meta']
+[5.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/lens_table/imx230) by extension 'colcon_meta'
+[5.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/lens_table/imx230) by extensions ['ros']
+[5.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/lens_table/imx230) by extension 'ros'
+[5.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/lens_table/imx230) by extensions ['cmake', 'python']
+[5.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/lens_table/imx230) by extension 'cmake'
+[5.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/lens_table/imx230) by extension 'python'
+[5.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/lens_table/imx230) by extensions ['python_setup_py']
+[5.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/python/imx230_postProcess/lens_table/imx230) by extension 'python_setup_py'
+[5.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/stereo_depth_demo) by extensions ['ignore', 'ignore_ament_install']
+[5.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/stereo_depth_demo) by extension 'ignore'
+[5.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/stereo_depth_demo) by extension 'ignore_ament_install'
+[5.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/stereo_depth_demo) by extensions ['colcon_pkg']
+[5.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/stereo_depth_demo) by extension 'colcon_pkg'
+[5.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/stereo_depth_demo) by extensions ['colcon_meta']
+[5.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/stereo_depth_demo) by extension 'colcon_meta'
+[5.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/stereo_depth_demo) by extensions ['ros']
+[5.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/stereo_depth_demo) by extension 'ros'
+[5.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/stereo_depth_demo) by extensions ['cmake', 'python']
+[5.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/stereo_depth_demo) by extension 'cmake'
+[5.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/stereo_depth_demo) by extension 'python'
+[5.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/stereo_depth_demo) by extensions ['python_setup_py']
+[5.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/stereo_depth_demo) by extension 'python_setup_py'
+[5.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils) by extensions ['ignore', 'ignore_ament_install']
+[5.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils) by extension 'ignore'
+[5.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils) by extension 'ignore_ament_install'
+[5.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils) by extensions ['colcon_pkg']
+[5.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils) by extension 'colcon_pkg'
+[5.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils) by extensions ['colcon_meta']
+[5.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils) by extension 'colcon_meta'
+[5.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils) by extensions ['ros']
+[5.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils) by extension 'ros'
+[5.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils) by extensions ['cmake', 'python']
+[5.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils) by extension 'cmake'
+[5.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils) by extension 'python'
+[5.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils) by extensions ['python_setup_py']
+[5.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils) by extension 'python_setup_py'
+[5.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf) by extensions ['ignore', 'ignore_ament_install']
+[5.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf) by extension 'ignore'
+[5.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf) by extension 'ignore_ament_install'
+[5.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf) by extensions ['colcon_pkg']
+[5.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf) by extension 'colcon_pkg'
+[5.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf) by extensions ['colcon_meta']
+[5.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf) by extension 'colcon_meta'
+[5.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf) by extensions ['ros']
+[5.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf) by extension 'ros'
+[5.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf) by extensions ['cmake', 'python']
+[5.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf) by extension 'cmake'
+[5.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf) by extension 'python'
+[5.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf) by extensions ['python_setup_py']
+[5.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf) by extension 'python_setup_py'
+[5.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf/32) by extensions ['ignore', 'ignore_ament_install']
+[5.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf/32) by extension 'ignore'
+[5.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf/32) by extension 'ignore_ament_install'
+[5.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf/32) by extensions ['colcon_pkg']
+[5.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf/32) by extension 'colcon_pkg'
+[5.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf/32) by extensions ['colcon_meta']
+[5.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf/32) by extension 'colcon_meta'
+[5.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf/32) by extensions ['ros']
+[5.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf/32) by extension 'ros'
+[5.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf/32) by extensions ['cmake', 'python']
+[5.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf/32) by extension 'cmake'
+[5.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf/32) by extension 'python'
+[5.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf/32) by extensions ['python_setup_py']
+[5.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf/32) by extension 'python_setup_py'
+[5.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf/64) by extensions ['ignore', 'ignore_ament_install']
+[5.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf/64) by extension 'ignore'
+[5.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf/64) by extension 'ignore_ament_install'
+[5.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf/64) by extensions ['colcon_pkg']
+[5.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf/64) by extension 'colcon_pkg'
+[5.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf/64) by extensions ['colcon_meta']
+[5.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf/64) by extension 'colcon_meta'
+[5.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf/64) by extensions ['ros']
+[5.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf/64) by extension 'ros'
+[5.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf/64) by extensions ['cmake', 'python']
+[5.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf/64) by extension 'cmake'
+[5.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf/64) by extension 'python'
+[5.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf/64) by extensions ['python_setup_py']
+[5.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/MIPI_Camera/RPI/utils/rpi3-gpiovirtbuf/64) by extension 'python_setup_py'
+[5.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluespace_ai_xsens_ros_mti_driver) by extensions ['ignore', 'ignore_ament_install']
+[5.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluespace_ai_xsens_ros_mti_driver) by extension 'ignore'
+[5.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluespace_ai_xsens_ros_mti_driver) by extension 'ignore_ament_install'
+[5.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluespace_ai_xsens_ros_mti_driver) by extensions ['colcon_pkg']
+[5.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluespace_ai_xsens_ros_mti_driver) by extension 'colcon_pkg'
+[5.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluespace_ai_xsens_ros_mti_driver) by extensions ['colcon_meta']
+[5.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluespace_ai_xsens_ros_mti_driver) by extension 'colcon_meta'
+[5.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluespace_ai_xsens_ros_mti_driver) by extensions ['ros']
+[5.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluespace_ai_xsens_ros_mti_driver) by extension 'ros'
+[5.220s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bluespace_ai_xsens_ros_mti_driver' with type 'ros.ament_cmake' and name 'bluespace_ai_xsens_mti_driver'
+[5.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extensions ['ignore', 'ignore_ament_install']
+[5.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extension 'ignore'
+[5.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extension 'ignore_ament_install'
+[5.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extensions ['colcon_pkg']
+[5.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extension 'colcon_pkg'
+[5.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extensions ['colcon_meta']
+[5.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extension 'colcon_meta'
+[5.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extensions ['ros']
+[5.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extension 'ros'
+[5.223s] DEBUG:colcon.colcon_core.package_identification:Package 'src/v4l2_camera' with type 'ros.ament_cmake' and name 'v4l2_camera'
+[5.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.735s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[5.736s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[5.894s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/ubuntu/ros2_ws/install
+[5.973s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 260 installed packages in /opt/ros/foxy
+[5.976s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[6.276s] Level 5:colcon.colcon_core.verb:set package 'bluespace_ai_xsens_mti_driver' build argument 'cmake_args' from command line to 'None'
+[6.277s] Level 5:colcon.colcon_core.verb:set package 'bluespace_ai_xsens_mti_driver' build argument 'cmake_target' from command line to 'None'
+[6.277s] Level 5:colcon.colcon_core.verb:set package 'bluespace_ai_xsens_mti_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.277s] Level 5:colcon.colcon_core.verb:set package 'bluespace_ai_xsens_mti_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[6.277s] Level 5:colcon.colcon_core.verb:set package 'bluespace_ai_xsens_mti_driver' build argument 'cmake_clean_first' from command line to 'False'
+[6.277s] Level 5:colcon.colcon_core.verb:set package 'bluespace_ai_xsens_mti_driver' build argument 'cmake_force_configure' from command line to 'False'
+[6.277s] Level 5:colcon.colcon_core.verb:set package 'bluespace_ai_xsens_mti_driver' build argument 'ament_cmake_args' from command line to 'None'
+[6.277s] Level 5:colcon.colcon_core.verb:set package 'bluespace_ai_xsens_mti_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[6.277s] Level 5:colcon.colcon_core.verb:set package 'bluespace_ai_xsens_mti_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.277s] DEBUG:colcon.colcon_core.verb:Building package 'bluespace_ai_xsens_mti_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver', 'symlink_install': False, 'test_result_base': None}
+[6.353s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_args' from command line to 'None'
+[6.353s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_target' from command line to 'None'
+[6.354s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.354s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[6.354s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_clean_first' from command line to 'False'
+[6.354s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_force_configure' from command line to 'False'
+[6.354s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'ament_cmake_args' from command line to 'None'
+[6.354s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[6.354s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.354s] DEBUG:colcon.colcon_core.verb:Building package 'v4l2_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/build/v4l2_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/install/v4l2_camera', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/v4l2_camera', 'symlink_install': False, 'test_result_base': None}
+[6.432s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.513s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.514s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver' with build type 'ament_cmake'
+[6.514s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver'
+[6.601s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.601s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.602s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.902s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_ws/src/v4l2_camera' with build type 'ament_cmake'
+[6.904s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_ws/src/v4l2_camera'
+[7.002s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.002s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.259s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ubuntu/.local/bin/cmake --build /home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver -- -j4 -l4
+[7.278s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ubuntu/.local/bin/cmake --build /home/ubuntu/ros2_ws/build/v4l2_camera -- -j4 -l4
+[7.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ubuntu/.local/bin/cmake --build /home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver -- -j4 -l4
+[7.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ubuntu/.local/bin/cmake --install /home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver
+[7.397s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bluespace_ai_xsens_mti_driver)
+[7.398s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ubuntu/.local/bin/cmake --install /home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver
+[7.485s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver' for CMake module files
+[7.486s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver' for CMake config files
+[7.487s] Level 1:colcon.colcon_core.shell:create_environment_hook('bluespace_ai_xsens_mti_driver', 'cmake_prefix_path')
+[7.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/hook/cmake_prefix_path.ps1'
+[7.569s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/hook/cmake_prefix_path.dsv'
+[7.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/hook/cmake_prefix_path.sh'
+[7.572s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/lib'
+[7.573s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/bin'
+[7.573s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/lib/pkgconfig/bluespace_ai_xsens_mti_driver.pc'
+[7.573s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/lib/python3.8/site-packages'
+[7.574s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/bin'
+[7.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.ps1'
+[7.658s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.dsv'
+[7.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.sh'
+[7.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.bash'
+[7.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.zsh'
+[7.664s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/colcon-core/packages/bluespace_ai_xsens_mti_driver)
+[7.786s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bluespace_ai_xsens_mti_driver)
+[7.873s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver' for CMake module files
+[7.875s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver' for CMake config files
+[7.876s] Level 1:colcon.colcon_core.shell:create_environment_hook('bluespace_ai_xsens_mti_driver', 'cmake_prefix_path')
+[7.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/hook/cmake_prefix_path.ps1'
+[7.967s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/hook/cmake_prefix_path.dsv'
+[7.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/hook/cmake_prefix_path.sh'
+[7.972s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/lib'
+[7.972s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/bin'
+[7.973s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/lib/pkgconfig/bluespace_ai_xsens_mti_driver.pc'
+[7.974s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/lib/python3.8/site-packages'
+[7.974s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/bin'
+[8.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.ps1'
+[8.063s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.dsv'
+[8.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.sh'
+[8.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.bash'
+[8.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.zsh'
+[8.071s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/colcon-core/packages/bluespace_ai_xsens_mti_driver)
+[16.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/v4l2_camera' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ubuntu/.local/bin/cmake --build /home/ubuntu/ros2_ws/build/v4l2_camera -- -j4 -l4
+[16.784s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(v4l2_camera)
+[16.867s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/v4l2_camera' for CMake module files
+[16.868s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/v4l2_camera' for CMake config files
+[16.869s] Level 1:colcon.colcon_core.shell:create_environment_hook('v4l2_camera', 'cmake_prefix_path')
+[16.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.ps1'
+[16.954s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.dsv'
+[16.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.sh'
+[16.956s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/v4l2_camera/lib'
+[16.957s] Level 1:colcon.colcon_core.shell:create_environment_hook('v4l2_camera', 'ld_library_path_lib')
+[17.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.ps1'
+[17.039s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.dsv'
+[17.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.sh'
+[17.041s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/v4l2_camera/bin'
+[17.041s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/v4l2_camera/lib/pkgconfig/v4l2_camera.pc'
+[17.042s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/v4l2_camera/lib/python3.8/site-packages'
+[17.042s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/v4l2_camera/bin'
+[17.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/package.ps1'
+[17.123s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/package.dsv'
+[17.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/package.sh'
+[17.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/package.bash'
+[17.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/package.zsh'
+[17.127s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/install/v4l2_camera/share/colcon-core/packages/v4l2_camera)
+[17.138s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[17.138s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[17.138s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[17.139s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[17.228s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[17.228s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[17.229s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[17.262s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[17.343s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/install/local_setup.ps1'
+[17.346s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros2_ws/install/_local_setup_util_ps1.py'
+[17.348s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/install/setup.ps1'
+[17.430s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/install/local_setup.sh'
+[17.431s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros2_ws/install/_local_setup_util_sh.py'
+[17.432s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/install/setup.sh'
+[17.512s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/install/local_setup.bash'
+[17.513s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/install/setup.bash'
+[17.592s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/install/local_setup.zsh'
+[17.593s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/install/setup.zsh'

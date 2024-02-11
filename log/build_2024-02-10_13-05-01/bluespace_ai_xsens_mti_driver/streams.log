@@ -1,0 +1,114 @@
+[0.569s] Invoking command in '/home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/ubuntu/.local/bin/cmake /home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver
+[0.614s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.614s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.614s]   CMake.
+[0.614s] 
+[0.614s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.615s]   CMake that the project does not need compatibility with older versions.
+[0.615s] 
+[0.615s] [0m
+[0.761s] -- The C compiler identification is GNU 9.4.0
+[0.912s] -- The CXX compiler identification is GNU 9.4.0
+[0.956s] -- Detecting C compiler ABI info
+[1.086s] -- Detecting C compiler ABI info - done
+[1.107s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.109s] -- Detecting C compile features
+[1.109s] -- Detecting C compile features - done
+[1.135s] -- Detecting CXX compiler ABI info
+[1.278s] -- Detecting CXX compiler ABI info - done
+[1.300s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.301s] -- Detecting CXX compile features
+[1.302s] -- Detecting CXX compile features - done
+[1.310s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.321s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[1.322s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.322s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.323s]   the cmake_policy command to set the policy and suppress this warning.
+[1.324s] 
+[1.325s] Call Stack (most recent call first):
+[1.326s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[1.326s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[1.327s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[1.328s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[1.328s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[1.330s]   CMakeLists.txt:12 (find_package)
+[1.330s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.330s] [0m
+[1.366s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.366s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.846s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.950s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.966s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.122s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.184s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.369s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.508s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.512s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.515s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.635s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.636s] -- Looking for pthread_create in pthreads
+[2.730s] -- Looking for pthread_create in pthreads - not found
+[2.731s] -- Looking for pthread_create in pthread
+[2.848s] -- Looking for pthread_create in pthread - found
+[2.853s] -- Found Threads: TRUE  
+[3.252s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[3.377s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[4.207s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[4.392s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.565s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.613s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.613s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/lib/xspublic>
+[4.613s] -- Configured cppcheck exclude dirs and/or files: 
+[4.662s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.663s] -- Configured cpplint exclude dirs and/or files: 
+[4.670s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.682s] -- Added test 'lint_cmake' to check CMake code style
+[4.689s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.737s] -- Added test 'uncrustify' to check C / C++ code style
+[4.737s] -- Configured uncrustify additional arguments: 
+[4.744s] -- Added test 'xmllint' to check XML markup files
+[4.748s] -- Configuring done (4.2s)
+[4.781s] -- Generating done (0.0s)
+[4.785s] -- Build files have been written to: /home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver
+[4.814s] Invoked command in '/home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/ubuntu/.local/bin/cmake /home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver
+[4.821s] Invoking command in '/home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/ubuntu/.local/bin/cmake --build /home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver -- -j4 -l4
+[4.861s] [ 25%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/main.cpp.o[0m
+[4.862s] [ 50%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o[0m
+[4.862s] [ 75%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xdacallback.cpp.o[0m
+[20.493s] [100%] [32m[1mLinking CXX executable xsens_mti_node[0m
+[21.966s] [100%] Built target xsens_mti_node
+[21.975s] Invoked command in '/home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/ubuntu/.local/bin/cmake --build /home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver -- -j4 -l4
+[22.019s] Invoking command in '/home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/ubuntu/.local/bin/cmake --install /home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver
+[22.026s] -- Install configuration: ""
+[22.026s] -- Installing: /home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/lib/bluespace_ai_xsens_mti_driver/xsens_mti_node
+[22.041s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/lib/bluespace_ai_xsens_mti_driver/xsens_mti_node" to ""
+[22.042s] -- Installing: /home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/launch
+[22.042s] -- Installing: /home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/launch/xsens_mti_node.launch.py
+[22.042s] -- Installing: /home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/launch/display.launch.py
+[22.042s] -- Installing: /home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/param
+[22.042s] -- Installing: /home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/param/xsens_mti_node.yaml
+[22.043s] -- Installing: /home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/rviz
+[22.043s] -- Installing: /home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/rviz/display.rviz
+[22.043s] -- Installing: /home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf
+[22.043s] -- Installing: /home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf/MTi_10.stl
+[22.053s] -- Installing: /home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf/MTi_1.stl
+[22.056s] -- Installing: /home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf/MTi_1.urdf
+[22.056s] -- Installing: /home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf/MTi_10.urdf
+[22.056s] -- Installing: /home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf/MTi_6xx.stl
+[22.065s] -- Installing: /home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf/MTi_6xx.urdf
+[22.065s] -- Installing: /home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/ament_index/resource_index/package_run_dependencies/bluespace_ai_xsens_mti_driver
+[22.066s] -- Installing: /home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/ament_index/resource_index/parent_prefix_path/bluespace_ai_xsens_mti_driver
+[22.066s] -- Installing: /home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/environment/ament_prefix_path.sh
+[22.066s] -- Installing: /home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/environment/ament_prefix_path.dsv
+[22.067s] -- Installing: /home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/environment/path.sh
+[22.067s] -- Installing: /home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/environment/path.dsv
+[22.067s] -- Installing: /home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/local_setup.bash
+[22.068s] -- Installing: /home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/local_setup.sh
+[22.068s] -- Installing: /home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/local_setup.zsh
+[22.068s] -- Installing: /home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/local_setup.dsv
+[22.068s] -- Installing: /home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.dsv
+[22.069s] -- Installing: /home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/ament_index/resource_index/packages/bluespace_ai_xsens_mti_driver
+[22.069s] -- Installing: /home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/cmake/bluespace_ai_xsens_mti_driverConfig.cmake
+[22.069s] -- Installing: /home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/cmake/bluespace_ai_xsens_mti_driverConfig-version.cmake
+[22.069s] -- Installing: /home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.xml
+[22.074s] Invoked command in '/home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/ubuntu/.local/bin/cmake --install /home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver

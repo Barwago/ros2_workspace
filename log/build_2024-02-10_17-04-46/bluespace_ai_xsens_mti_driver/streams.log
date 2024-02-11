@@ -1,0 +1,64 @@
+[0.863s] Invoking command in '/home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ubuntu/.local/bin/cmake --build /home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver -- -j4 -l4
+[0.926s] [ 25%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o[0m
+[5.311s] In file included from [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/xdainterface.cpp:87[m[K:
+[5.312s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:[m[K In member function ‘[01m[Kvirtual void CamImuPublisher::operator()(const XsDataPacket&, rclcpp::Time)[m[K’:
+[5.312s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:31:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv[m[K’ has not been declared
+[5.312s]    31 |             [01;31m[Kcv[m[K::Mat frame;
+[5.312s]       |             [01;31m[K^~[m[K
+[5.323s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:35:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kgst_pipeline_[m[K’ was not declared in this scope
+[5.323s]    35 |              [01;31m[Kgst_pipeline_[m[K >> frame;
+[5.323s]       |              [01;31m[K^~~~~~~~~~~~~[m[K
+[5.328s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:35:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe[m[K’ was not declared in this scope
+[5.328s]    35 |              gst_pipeline_ >> [01;31m[Kframe[m[K;
+[5.328s]       |                               [01;31m[K^~~~~[m[K
+[5.329s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[5.329s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[5.329s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[5.329s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[5.329s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[5.330s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[5.330s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[5.330s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[5.330s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[5.330s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[5.330s]                  from [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/xdainterface.h:65[m[K,
+[5.330s]                  from [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/xdainterface.cpp:62[m[K:
+[5.331s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:38:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct CamImuPublisher[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[5.331s]    38 |                 RCLCPP_WARN(this->[01;31m[Kget_logger[m[K(), "Failed to capture frame");
+[5.331s]       |                                   [01;31m[K^~~~~~~~~~[m[K
+[5.331s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:38:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct CamImuPublisher[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[5.331s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:38:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.331s]    38 |                 [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "Failed to capture frame");
+[5.332s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[5.332s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:38:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.332s]    38 |                 [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "Failed to capture frame");
+[5.332s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[5.332s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:38:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.332s]    38 |                 [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "Failed to capture frame");
+[5.332s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[5.333s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[5.333s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[5.333s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[5.333s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[5.333s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[5.333s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[5.333s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[5.334s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[5.334s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[5.334s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[5.334s]                  from [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/xdainterface.h:65[m[K,
+[5.334s]                  from [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/xdainterface.cpp:62[m[K:
+[5.334s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:38:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct CamImuPublisher[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[5.334s]    38 |                 RCLCPP_WARN(this->[01;31m[Kget_logger[m[K(), "Failed to capture frame");
+[5.334s]       |                                   [01;31m[K^~~~~~~~~~[m[K
+[5.335s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:38:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct CamImuPublisher[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[5.335s]    38 |                 RCLCPP_WARN(this->[01;31m[Kget_logger[m[K(), "Failed to capture frame");
+[5.335s]       |                                   [01;31m[K^~~~~~~~~~[m[K
+[5.335s] In file included from [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/xdainterface.cpp:87[m[K:
+[5.335s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:43:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv_bridge[m[K’ has not been declared
+[5.335s]    43 |             auto image_msg = [01;31m[Kcv_bridge[m[K::CvImage(std_msgs::msg::Header(), "mono8", frame).toImageMsg();
+[5.335s]       |                              [01;31m[K^~~~~~~~~[m[K
+[10.525s] make[2]: *** [CMakeFiles/xsens_mti_node.dir/build.make:90: CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o] Error 1
+[10.525s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_mti_node.dir/all] Error 2
+[10.526s] make: *** [Makefile:146: all] Error 2
+[10.529s] Invoked command in '/home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ubuntu/.local/bin/cmake --build /home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver -- -j4 -l4

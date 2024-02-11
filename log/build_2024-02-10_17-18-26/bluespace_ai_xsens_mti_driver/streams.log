@@ -1,0 +1,11 @@
+[0.857s] Invoking command in '/home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ubuntu/.local/bin/cmake --build /home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver -- -j4 -l4
+[0.945s] [ 25%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o[0m
+[7.766s] In file included from [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/xdainterface.cpp:87[m[K:
+[7.767s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:[m[K In member function ‘[01m[Kvirtual void CamImuPublisher::operator()(const XsDataPacket&, rclcpp::Time)[m[K’:
+[7.767s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:38:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kgst_pipeline_[m[K’ was not declared in this scope
+[7.767s]    38 |              [01;31m[Kgst_pipeline_[m[K >> frame;
+[7.767s]       |              [01;31m[K^~~~~~~~~~~~~[m[K
+[13.993s] make[2]: *** [CMakeFiles/xsens_mti_node.dir/build.make:90: CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o] Error 1
+[13.994s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_mti_node.dir/all] Error 2
+[13.994s] make: *** [Makefile:146: all] Error 2
+[13.998s] Invoked command in '/home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ubuntu/.local/bin/cmake --build /home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver -- -j4 -l4

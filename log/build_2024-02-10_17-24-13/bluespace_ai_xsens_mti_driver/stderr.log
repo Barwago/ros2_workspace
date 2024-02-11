@@ -1,0 +1,47 @@
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/xdainterface.h:65[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/xdainterface.cpp:62[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:[m[K In member function ‘[01m[Kvirtual void CamImuPublisher::operator()(const XsDataPacket&, rclcpp::Time)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:37:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct CamImuPublisher[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   37 |                 RCLCPP_WARN(this->[01;31m[Kget_logger[m[K(), "Failed to open camera");
+      |                                   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:37:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct CamImuPublisher[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:37:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   37 |                 [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "Failed to open camera");
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:37:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   37 |                 [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "Failed to open camera");
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:37:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   37 |                 [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "Failed to open camera");
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/xdainterface.h:65[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/xdainterface.cpp:62[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:37:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct CamImuPublisher[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   37 |                 RCLCPP_WARN(this->[01;31m[Kget_logger[m[K(), "Failed to open camera");
+      |                                   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:37:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct CamImuPublisher[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   37 |                 RCLCPP_WARN(this->[01;31m[Kget_logger[m[K(), "Failed to open camera");
+      |                                   [01;31m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/xsens_mti_node.dir/build.make:90: CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_mti_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

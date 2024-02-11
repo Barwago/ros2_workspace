@@ -1,0 +1,63 @@
+[0.883s] Invoking command in '/home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ubuntu/.local/bin/cmake --build /home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver -- -j4 -l4
+[0.909s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.909s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.909s]   CMake.
+[0.909s] 
+[0.910s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.910s]   CMake that the project does not need compatibility with older versions.
+[0.910s] 
+[0.910s] [0m
+[0.923s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.927s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.928s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.928s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.928s]   the cmake_policy command to set the policy and suppress this warning.
+[0.928s] 
+[0.928s] Call Stack (most recent call first):
+[0.928s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.929s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.929s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.929s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.929s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.929s]   CMakeLists.txt:12 (find_package)
+[0.929s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.929s] [0m
+[0.974s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.380s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.457s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.465s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.778s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.909s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.912s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.276s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[2.394s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[3.186s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.374s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.516s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.567s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.568s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/lib/xspublic>
+[3.568s] -- Configured cppcheck exclude dirs and/or files: 
+[3.616s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.616s] -- Configured cpplint exclude dirs and/or files: 
+[3.623s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.635s] -- Added test 'lint_cmake' to check CMake code style
+[3.642s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.690s] -- Added test 'uncrustify' to check C / C++ code style
+[3.690s] -- Configured uncrustify additional arguments: 
+[3.697s] -- Added test 'xmllint' to check XML markup files
+[3.699s] -- Configuring done (2.8s)
+[3.733s] -- Generating done (0.0s)
+[3.737s] -- Build files have been written to: /home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver
+[3.812s] [ 25%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o[0m
+[10.602s] In file included from [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/xdainterface.cpp:87[m[K:
+[10.603s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:[m[K In member function ‘[01m[Kvirtual void CamImuPublisher::operator()(const XsDataPacket&, rclcpp::Time)[m[K’:
+[10.603s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:36:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kgst_pipeline_[m[K’ was not declared in this scope
+[10.603s]    36 |              [01;31m[Kgst_pipeline_[m[K >> frame;
+[10.603s]       |              [01;31m[K^~~~~~~~~~~~~[m[K
+[10.603s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:44:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv_bridge[m[K’ has not been declared
+[10.604s]    44 |             auto image_msg = [01;31m[Kcv_bridge[m[K::CvImage(std_msgs::msg::Header(), "mono8", frame).toImageMsg();
+[10.604s]       |                              [01;31m[K^~~~~~~~~[m[K
+[17.039s] make[2]: *** [CMakeFiles/xsens_mti_node.dir/build.make:90: CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o] Error 1
+[17.040s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_mti_node.dir/all] Error 2
+[17.040s] make: *** [Makefile:146: all] Error 2
+[17.047s] Invoked command in '/home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ubuntu/.local/bin/cmake --build /home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver -- -j4 -l4

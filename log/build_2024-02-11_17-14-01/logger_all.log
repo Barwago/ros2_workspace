@@ -1,0 +1,193 @@
+[4.607s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[4.607s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb7d3fb50>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb7d3fb50>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb7942160>)
+[4.808s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.809s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.809s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.809s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.809s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.809s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.809s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/ros2_ws'
+[4.809s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.810s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.810s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.810s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.810s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.810s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.810s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.810s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.810s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.834s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.834s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.834s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.834s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.834s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.834s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.835s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.835s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.835s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.835s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.835s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.836s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.836s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.836s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.836s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.837s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.837s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.837s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.837s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.837s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.837s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.837s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.837s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.837s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.838s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.838s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.838s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.838s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluespace_ai_xsens_ros_mti_driver) by extensions ['ignore', 'ignore_ament_install']
+[4.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluespace_ai_xsens_ros_mti_driver) by extension 'ignore'
+[4.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluespace_ai_xsens_ros_mti_driver) by extension 'ignore_ament_install'
+[4.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluespace_ai_xsens_ros_mti_driver) by extensions ['colcon_pkg']
+[4.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluespace_ai_xsens_ros_mti_driver) by extension 'colcon_pkg'
+[4.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluespace_ai_xsens_ros_mti_driver) by extensions ['colcon_meta']
+[4.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluespace_ai_xsens_ros_mti_driver) by extension 'colcon_meta'
+[4.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluespace_ai_xsens_ros_mti_driver) by extensions ['ros']
+[4.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluespace_ai_xsens_ros_mti_driver) by extension 'ros'
+[4.845s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bluespace_ai_xsens_ros_mti_driver' with type 'ros.ament_cmake' and name 'bluespace_ai_xsens_mti_driver'
+[4.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extensions ['ignore', 'ignore_ament_install']
+[4.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extension 'ignore'
+[4.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extension 'ignore_ament_install'
+[4.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extensions ['colcon_pkg']
+[4.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extension 'colcon_pkg'
+[4.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extensions ['colcon_meta']
+[4.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extension 'colcon_meta'
+[4.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extensions ['ros']
+[4.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/v4l2_camera) by extension 'ros'
+[4.848s] DEBUG:colcon.colcon_core.package_identification:Package 'src/v4l2_camera' with type 'ros.ament_cmake' and name 'v4l2_camera'
+[4.848s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.848s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.848s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.848s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.848s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[5.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[5.482s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/ubuntu/ros2_ws/install
+[5.561s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 260 installed packages in /opt/ros/foxy
+[5.563s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.865s] Level 5:colcon.colcon_core.verb:set package 'bluespace_ai_xsens_mti_driver' build argument 'cmake_args' from command line to 'None'
+[5.865s] Level 5:colcon.colcon_core.verb:set package 'bluespace_ai_xsens_mti_driver' build argument 'cmake_target' from command line to 'None'
+[5.865s] Level 5:colcon.colcon_core.verb:set package 'bluespace_ai_xsens_mti_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.865s] Level 5:colcon.colcon_core.verb:set package 'bluespace_ai_xsens_mti_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[5.866s] Level 5:colcon.colcon_core.verb:set package 'bluespace_ai_xsens_mti_driver' build argument 'cmake_clean_first' from command line to 'False'
+[5.866s] Level 5:colcon.colcon_core.verb:set package 'bluespace_ai_xsens_mti_driver' build argument 'cmake_force_configure' from command line to 'False'
+[5.866s] Level 5:colcon.colcon_core.verb:set package 'bluespace_ai_xsens_mti_driver' build argument 'ament_cmake_args' from command line to 'None'
+[5.866s] Level 5:colcon.colcon_core.verb:set package 'bluespace_ai_xsens_mti_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[5.866s] Level 5:colcon.colcon_core.verb:set package 'bluespace_ai_xsens_mti_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.866s] DEBUG:colcon.colcon_core.verb:Building package 'bluespace_ai_xsens_mti_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver', 'symlink_install': False, 'test_result_base': None}
+[5.945s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_args' from command line to 'None'
+[5.945s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_target' from command line to 'None'
+[5.945s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.945s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[5.946s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_clean_first' from command line to 'False'
+[5.946s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_force_configure' from command line to 'False'
+[5.946s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'ament_cmake_args' from command line to 'None'
+[5.946s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[5.946s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.946s] DEBUG:colcon.colcon_core.verb:Building package 'v4l2_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/build/v4l2_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/install/v4l2_camera', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/v4l2_camera', 'symlink_install': False, 'test_result_base': None}
+[6.024s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.103s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.103s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver' with build type 'ament_cmake'
+[6.104s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver'
+[6.192s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.193s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.193s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.483s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_ws/src/v4l2_camera' with build type 'ament_cmake'
+[6.484s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_ws/src/v4l2_camera'
+[6.565s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.565s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.819s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ubuntu/.local/bin/cmake --build /home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver -- -j4 -l4
+[6.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ubuntu/.local/bin/cmake --build /home/ubuntu/ros2_ws/build/v4l2_camera -- -j4 -l4
+[6.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ubuntu/.local/bin/cmake --build /home/ubuntu/ros2_ws/build/v4l2_camera -- -j4 -l4
+[6.983s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ubuntu/.local/bin/cmake --install /home/ubuntu/ros2_ws/build/v4l2_camera
+[7.011s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(v4l2_camera)
+[7.031s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ubuntu/.local/bin/cmake --install /home/ubuntu/ros2_ws/build/v4l2_camera
+[7.115s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/v4l2_camera' for CMake module files
+[7.117s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/v4l2_camera' for CMake config files
+[7.118s] Level 1:colcon.colcon_core.shell:create_environment_hook('v4l2_camera', 'cmake_prefix_path')
+[7.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.ps1'
+[7.215s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.dsv'
+[7.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.sh'
+[7.219s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/v4l2_camera/lib'
+[7.220s] Level 1:colcon.colcon_core.shell:create_environment_hook('v4l2_camera', 'ld_library_path_lib')
+[7.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.ps1'
+[7.313s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.dsv'
+[7.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.sh'
+[7.315s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/v4l2_camera/bin'
+[7.315s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/v4l2_camera/lib/pkgconfig/v4l2_camera.pc'
+[7.316s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/v4l2_camera/lib/python3.8/site-packages'
+[7.317s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/v4l2_camera/bin'
+[7.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/package.ps1'
+[7.411s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/package.dsv'
+[7.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/package.sh'
+[7.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/package.bash'
+[7.417s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/package.zsh'
+[7.419s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/install/v4l2_camera/share/colcon-core/packages/v4l2_camera)
+[7.580s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(v4l2_camera)
+[7.674s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/v4l2_camera' for CMake module files
+[7.675s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/v4l2_camera' for CMake config files
+[7.676s] Level 1:colcon.colcon_core.shell:create_environment_hook('v4l2_camera', 'cmake_prefix_path')
+[7.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.ps1'
+[7.761s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.dsv'
+[7.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.sh'
+[7.764s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/v4l2_camera/lib'
+[7.764s] Level 1:colcon.colcon_core.shell:create_environment_hook('v4l2_camera', 'ld_library_path_lib')
+[7.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.ps1'
+[7.849s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.dsv'
+[7.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.sh'
+[7.852s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/v4l2_camera/bin'
+[7.852s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/v4l2_camera/lib/pkgconfig/v4l2_camera.pc'
+[7.852s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/v4l2_camera/lib/python3.8/site-packages'
+[7.853s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/v4l2_camera/bin'
+[7.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/package.ps1'
+[7.937s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/package.dsv'
+[7.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/package.sh'
+[7.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/package.bash'
+[7.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/v4l2_camera/share/v4l2_camera/package.zsh'
+[7.941s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/install/v4l2_camera/share/colcon-core/packages/v4l2_camera)
+[17.820s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ubuntu/.local/bin/cmake --build /home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver -- -j4 -l4
+[17.945s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bluespace_ai_xsens_mti_driver)
+[18.024s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver' for CMake module files
+[18.026s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver' for CMake config files
+[18.026s] Level 1:colcon.colcon_core.shell:create_environment_hook('bluespace_ai_xsens_mti_driver', 'cmake_prefix_path')
+[18.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/hook/cmake_prefix_path.ps1'
+[18.106s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/hook/cmake_prefix_path.dsv'
+[18.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/hook/cmake_prefix_path.sh'
+[18.108s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/lib'
+[18.108s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/bin'
+[18.108s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/lib/pkgconfig/bluespace_ai_xsens_mti_driver.pc'
+[18.109s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/lib/python3.8/site-packages'
+[18.109s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/bin'
+[18.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.ps1'
+[18.189s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.dsv'
+[18.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.sh'
+[18.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.bash'
+[18.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.zsh'
+[18.193s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/colcon-core/packages/bluespace_ai_xsens_mti_driver)
+[18.194s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[18.195s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[18.195s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[18.196s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[18.285s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[18.285s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[18.286s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[18.324s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[18.404s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/install/local_setup.ps1'
+[18.407s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros2_ws/install/_local_setup_util_ps1.py'
+[18.410s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/install/setup.ps1'
+[18.490s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/install/local_setup.sh'
+[18.491s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros2_ws/install/_local_setup_util_sh.py'
+[18.492s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/install/setup.sh'
+[18.573s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/install/local_setup.bash'
+[18.574s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/install/setup.bash'
+[18.653s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/install/local_setup.zsh'
+[18.654s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/install/setup.zsh'

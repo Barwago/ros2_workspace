@@ -1,0 +1,20 @@
+[0.714s] Invoking command in '/home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ubuntu/.local/bin/cmake --build /home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver -- -j4 -l4
+[0.799s] [ 25%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o[0m
+[5.106s] In file included from [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/xdainterface.cpp:87[m[K:
+[5.106s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:61:19:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedPtr[m[K’ in ‘[01m[Kclass rclcpp::Time[m[K’ does not name a type
+[5.106s]    61 |     rclcpp::Time::[01;31m[KSharedPtr[m[K imu_latency; // Latency between IMU and camera
+[5.106s]       |                   [01;31m[K^~~~~~~~~[m[K
+[5.130s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:[m[K In member function ‘[01m[Kvirtual void CamImuPublisher::operator()(const XsDataPacket&, rclcpp::Time)[m[K’:
+[5.130s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:88:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kimu_latency[m[K’ was not declared in this scope; did you mean ‘[01m[Kimu_latency_set[m[K’?
+[5.131s]    88 |                 img_msg.header.stamp = timestamp - [01;31m[Kimu_latency[m[K;
+[5.131s]       |                                                    [01;31m[K^~~~~~~~~~~[m[K
+[5.131s]       |                                                    [32m[Kimu_latency_set[m[K
+[5.152s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:[m[K In member function ‘[01m[Kvoid CamImuPublisher::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.152s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:102:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kimu_latency[m[K’ was not declared in this scope; did you mean ‘[01m[Kimu_latency_set[m[K’?
+[5.153s]   102 |             [01;31m[Kimu_latency[m[K = msg->header.stamp;
+[5.153s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[5.153s]       |             [32m[Kimu_latency_set[m[K
+[12.653s] make[2]: *** [CMakeFiles/xsens_mti_node.dir/build.make:90: CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o] Error 1
+[12.654s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_mti_node.dir/all] Error 2
+[12.654s] make: *** [Makefile:146: all] Error 2
+[12.658s] Invoked command in '/home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ubuntu/.local/bin/cmake --build /home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver -- -j4 -l4

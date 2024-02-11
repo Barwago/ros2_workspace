@@ -1,0 +1,10 @@
+[0.357s] Invoking command in '/home/ubuntu/ros2_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ubuntu/.local/bin/cmake --build /home/ubuntu/ros2_ws/build/v4l2_camera -- -j4 -l4
+[0.424s] [ 14%] [32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o[0m
+[6.667s] [01m[K/home/ubuntu/ros2_ws/src/v4l2_camera/src/v4l2_camera.cpp:394:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kunsigned char v4l2_camera::CLIPVALUE(int)[m[K’ defined but not used [[01;31m[K-Werror=unused-function[m[K]
+[6.667s]   394 | static unsigned char [01;31m[KCLIPVALUE[m[K(int val)
+[6.667s]       |                      [01;31m[K^~~~~~~~~[m[K
+[9.333s] cc1plus: all warnings being treated as errors
+[9.385s] make[2]: *** [CMakeFiles/v4l2_camera.dir/build.make:76: CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o] Error 1
+[9.385s] make[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/v4l2_camera.dir/all] Error 2
+[9.386s] make: *** [Makefile:146: all] Error 2
+[9.389s] Invoked command in '/home/ubuntu/ros2_ws/build/v4l2_camera' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ubuntu/.local/bin/cmake --build /home/ubuntu/ros2_ws/build/v4l2_camera -- -j4 -l4

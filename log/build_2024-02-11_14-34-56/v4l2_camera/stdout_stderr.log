@@ -1,0 +1,18 @@
+[ 14%] [32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o[0m
+[01m[K/home/ubuntu/ros2_ws/src/v4l2_camera/src/v4l2_camera.cpp:516:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+  516 |   [01;31m[Kelse[m[K {
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/v4l2_camera/src/v4l2_camera.cpp:561:6:[m[K [01;31m[Kerror: [m[K‘[01m[KV4L2Camera[m[K’ has not been declared
+  561 | bool [01;31m[KV4L2Camera[m[K::checkCameraInfo(
+      |      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/v4l2_camera/src/v4l2_camera.cpp:568:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  568 | [01;31m[K}[m[K  // namespace v4l2_camera
+      | [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/v4l2_camera/src/v4l2_camera.cpp:[m[K In member function ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::UniquePtr v4l2_camera::V4L2Camera::convert(const Image&) const[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/v4l2_camera/src/v4l2_camera.cpp:515:3:[m[K [01;31m[Kerror: [m[Kcontrol reaches end of non-void function [[01;31m[K-Werror=return-type[m[K]
+  515 |   [01;31m[K}[m[K
+      |   [01;31m[K^[m[K
+cc1plus: all warnings being treated as errors
+make[2]: *** [CMakeFiles/v4l2_camera.dir/build.make:76: CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/v4l2_camera.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

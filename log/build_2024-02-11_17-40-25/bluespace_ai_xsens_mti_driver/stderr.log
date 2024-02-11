@@ -1,0 +1,20 @@
+In file included from [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/xdainterface.cpp:87[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:[m[K In constructor ‘[01m[KCamImuPublisher::CamImuPublisher(rclcpp::Node&)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:18:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct CamImuPublisher[m[K’ has no member named ‘[01m[Kget_parameter[m[K’
+   18 |         this->[01;31m[Kget_parameter[m[K("publisher_queue_size", pub_queue_size);
+      |               [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:19:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct CamImuPublisher[m[K’ has no member named ‘[01m[Kcreate_publisher[m[K’
+   19 |         pub = this->[01;31m[Kcreate_publisher[m[K<sensor_msgs::msg::Image>("/imu_cam_sync", pub_queue_size);
+      |                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:19:61:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   19 |         pub = this->create_publisher<sensor_msgs::msg::Image[01;31m[K>[m[K("/imu_cam_sync", pub_queue_size);
+      |                                                             [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:26:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct CamImuPublisher[m[K’ has no member named ‘[01m[Kcreate_subscription[m[K’
+   26 |         auto sub_image = this->[01;31m[Kcreate_subscription[m[K<sensor_msgs::msg::Image>("/image_raw", 5, sub_image_callback);
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:26:75:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   26 |         auto sub_image = this->create_subscription<sensor_msgs::msg::Image[01;31m[K>[m[K("/image_raw", 5, sub_image_callback);
+      |                                                                           [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/xsens_mti_node.dir/build.make:90: CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_mti_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

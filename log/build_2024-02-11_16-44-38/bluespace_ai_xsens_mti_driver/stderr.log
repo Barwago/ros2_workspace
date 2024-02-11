@@ -1,0 +1,15 @@
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/xdainterface.cpp:[m[K In member function ‘[01m[Kvoid XdaInterface::registerPublishers()[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/xdainterface.cpp:191:44:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[KCamImuPublisher[m[K’
+  191 |   registerCallback(new CamImuPublisher(node[01;31m[K)[m[K);
+      |                                            [01;31m[K^[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/xdainterface.cpp:87[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:11:8:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KCamImuPublisher[m[K’:
+   11 | struct [01;36m[KCamImuPublisher[m[K : public PacketCallback, PublisherHelperFunctions
+      |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/xdainterface.cpp:68[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/packetcallback.h:73:22:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual void PacketCallback::operator()(const XsDataPacket&, rclcpp::Time)[m[K’
+   73 |         virtual void [01;36m[Koperator[m[K()(const XsDataPacket &, rclcpp::Time) = 0;
+      |                      [01;36m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/xsens_mti_node.dir/build.make:90: CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_mti_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

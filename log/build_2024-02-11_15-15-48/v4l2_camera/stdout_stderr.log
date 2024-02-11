@@ -1,0 +1,8 @@
+[ 14%] [32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o[0m
+[01m[K/home/ubuntu/ros2_ws/src/v4l2_camera/src/v4l2_camera.cpp:402:1:[m[K [01;31m[Kerror: [m[K"/*" within comment [[01;31m[K-Werror=comment[m[K]
+  402 | /**
+      |  
+cc1plus: all warnings being treated as errors
+make[2]: *** [CMakeFiles/v4l2_camera.dir/build.make:76: CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/v4l2_camera.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

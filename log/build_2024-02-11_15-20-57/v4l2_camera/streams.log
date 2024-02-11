@@ -1,0 +1,25 @@
+[0.356s] Invoking command in '/home/ubuntu/ros2_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ubuntu/.local/bin/cmake --build /home/ubuntu/ros2_ws/build/v4l2_camera -- -j4 -l4
+[0.417s] [ 14%] [32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o[0m
+[3.794s] [01m[K/home/ubuntu/ros2_ws/src/v4l2_camera/src/v4l2_camera.cpp:[m[K In member function ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::UniquePtr v4l2_camera::V4L2Camera::convert(const Image&) const[m[K’:
+[3.795s] [01m[K/home/ubuntu/ros2_ws/src/v4l2_camera/src/v4l2_camera.cpp:585:33:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[3.795s]   585 | bool V4L2Camera::checkCameraInfo[01;31m[K([m[K
+[3.795s]       |                                 [01;31m[K^[m[K
+[3.795s] In file included from [01m[K/opt/ros/foxy/include/class_loader/class_loader.hpp:56[m[K,
+[3.795s]                  from [01m[K/opt/ros/foxy/include/rclcpp_components/register_node_macro.hpp:18[m[K,
+[3.796s]                  from [01m[K/home/ubuntu/ros2_ws/src/v4l2_camera/src/v4l2_camera.cpp:27[m[K:
+[3.796s] [01m[K/home/ubuntu/ros2_ws/src/v4l2_camera/src/v4l2_camera.cpp:[m[K At global scope:
+[3.796s] [01m[K/home/ubuntu/ros2_ws/src/v4l2_camera/src/v4l2_camera.cpp:594:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[3.796s]   594 | [01;31m[KRCLCPP_COMPONENTS_REGISTER_NODE[m[K(v4l2_camera::V4L2Camera)
+[3.796s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.796s] [01m[K/home/ubuntu/ros2_ws/src/v4l2_camera/src/v4l2_camera.cpp:32:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[3.796s]    32 | [01;36m[K{[m[K
+[3.797s]       | [01;36m[K^[m[K
+[6.547s] [01m[K/home/ubuntu/ros2_ws/src/v4l2_camera/src/v4l2_camera.cpp:[m[K In member function ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::UniquePtr v4l2_camera::V4L2Camera::convert(const Image&) const[m[K’:
+[6.547s] [01m[K/home/ubuntu/ros2_ws/src/v4l2_camera/src/v4l2_camera.cpp:592:1:[m[K [01;31m[Kerror: [m[Kcontrol reaches end of non-void function [[01;31m[K-Werror=return-type[m[K]
+[6.547s]   592 | [01;31m[K}[m[K  // namespace v4l2_camera
+[6.547s]       | [01;31m[K^[m[K
+[6.590s] cc1plus: all warnings being treated as errors
+[6.636s] make[2]: *** [CMakeFiles/v4l2_camera.dir/build.make:76: CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o] Error 1
+[6.636s] make[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/v4l2_camera.dir/all] Error 2
+[6.637s] make: *** [Makefile:146: all] Error 2
+[6.640s] Invoked command in '/home/ubuntu/ros2_ws/build/v4l2_camera' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ubuntu/.local/bin/cmake --build /home/ubuntu/ros2_ws/build/v4l2_camera -- -j4 -l4

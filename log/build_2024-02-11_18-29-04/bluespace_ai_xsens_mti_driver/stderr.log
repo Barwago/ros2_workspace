@@ -1,0 +1,17 @@
+In file included from [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/xdainterface.cpp:87[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:61:19:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedPtr[m[K’ in ‘[01m[Kclass rclcpp::Time[m[K’ does not name a type
+   61 |     rclcpp::Time::[01;31m[KSharedPtr[m[K imu_latency; // Latency between IMU and camera
+      |                   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:[m[K In member function ‘[01m[Kvirtual void CamImuPublisher::operator()(const XsDataPacket&, rclcpp::Time)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:88:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kimu_latency[m[K’ was not declared in this scope; did you mean ‘[01m[Kimu_latency_set[m[K’?
+   88 |                 img_msg.header.stamp = timestamp - [01;31m[Kimu_latency[m[K;
+      |                                                    [01;31m[K^~~~~~~~~~~[m[K
+      |                                                    [32m[Kimu_latency_set[m[K
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:[m[K In member function ‘[01m[Kvoid CamImuPublisher::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:102:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kimu_latency[m[K’ was not declared in this scope; did you mean ‘[01m[Kimu_latency_set[m[K’?
+  102 |             [01;31m[Kimu_latency[m[K = msg->header.stamp;
+      |             [01;31m[K^~~~~~~~~~~[m[K
+      |             [32m[Kimu_latency_set[m[K
+make[2]: *** [CMakeFiles/xsens_mti_node.dir/build.make:90: CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_mti_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

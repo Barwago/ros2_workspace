@@ -1,0 +1,15 @@
+[0.693s] Invoking command in '/home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ubuntu/.local/bin/cmake --build /home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver -- -j4 -l4
+[0.776s] [ 25%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o[0m
+[5.184s] In file included from [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/xdainterface.cpp:87[m[K:
+[5.185s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:[m[K In member function ‘[01m[Kvoid CamImuPublisher::imu_callback(const XsDataPacket&)[m[K’:
+[5.185s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:61:32:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimestamp[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimercmp[m[K’?
+[5.185s]    61 |         imu_msg.header.stamp = [01;31m[Ktimestamp[m[K;
+[5.185s]       |                                [01;31m[K^~~~~~~~~[m[K
+[5.185s]       |                                [32m[Ktimercmp[m[K
+[5.185s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:62:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct XsDataPacket[m[K’ has no member named ‘[01m[KgetAngularVelocity[m[K’
+[5.186s]    62 |         imu_msg.angular_velocity = packet.[01;31m[KgetAngularVelocity[m[K();
+[5.186s]       |                                           [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[12.354s] make[2]: *** [CMakeFiles/xsens_mti_node.dir/build.make:90: CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o] Error 1
+[12.354s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_mti_node.dir/all] Error 2
+[12.354s] make: *** [Makefile:146: all] Error 2
+[12.358s] Invoked command in '/home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ubuntu/.local/bin/cmake --build /home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver -- -j4 -l4

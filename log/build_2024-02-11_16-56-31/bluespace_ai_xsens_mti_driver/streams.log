@@ -1,0 +1,33 @@
+[0.709s] Invoking command in '/home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ubuntu/.local/bin/cmake --build /home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver -- -j4 -l4
+[0.792s] [ 25%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o[0m
+[5.048s] In file included from [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/xdainterface.cpp:87[m[K:
+[5.048s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:[m[K In member function ‘[01m[Kvirtual void CamImuPublisher::operator()(const XsDataPacket&, rclcpp::Time)[m[K’:
+[5.048s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:40:32:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KCamImuPublisher::imu_callback(const XsDataPacket&)[m[K’
+[5.049s]    40 |             imu_callback(packet[01;31m[K)[m[K; // Process IMU data packet
+[5.049s]       |                                [01;31m[K^[m[K
+[5.049s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:56:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid CamImuPublisher::imu_callback(const XsDataPacket&, rclcpp::Time&)[m[K’
+[5.049s]    56 |     void [01;36m[Kimu_callback[m[K(const XsDataPacket &packet, rclcpp::Time &imu_callback_timestamp)
+[5.049s]       |          [01;36m[K^~~~~~~~~~~~[m[K
+[5.049s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:56:10:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[5.061s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:[m[K In member function ‘[01m[Kvoid CamImuPublisher::imu_callback(const XsDataPacket&, rclcpp::Time&)[m[K’:
+[5.062s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:61:32:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimestamp[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimercmp[m[K’?
+[5.062s]    61 |         imu_msg.header.stamp = [01;31m[Ktimestamp[m[K;
+[5.062s]       |                                [01;31m[K^~~~~~~~~[m[K
+[5.062s]       |                                [32m[Ktimercmp[m[K
+[5.062s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:62:66:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Ksensor_msgs::msg::Imu_<std::allocator<void> >::_angular_velocity_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} and ‘[01m[KXsVector[m[K’)
+[5.062s]    62 |         imu_msg.angular_velocity = packet.calibratedAcceleration([01;31m[K)[m[K;
+[5.063s]       |                                                                  [01;31m[K^[m[K
+[5.063s] In file included from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/vector3_stamped__struct.hpp:21[m[K,
+[5.063s]                  from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/vector3_stamped.hpp:7[m[K,
+[5.063s]                  from [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/accelerationpublisher.h:66[m[K,
+[5.063s]                  from [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/xdainterface.cpp:69[m[K:
+[5.063s] [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/vector3__struct.hpp:31:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Vector3_<std::allocator<void> >& geometry_msgs::msg::Vector3_<std::allocator<void> >::operator=(const geometry_msgs::msg::Vector3_<std::allocator<void> >&)[m[K’
+[5.063s]    31 | struct [01;36m[KVector3_[m[K
+[5.064s]       |        [01;36m[K^~~~~~~~[m[K
+[5.064s] [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/vector3__struct.hpp:31:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KXsVector[m[K’ to ‘[01m[Kconst geometry_msgs::msg::Vector3_<std::allocator<void> >&[m[K’
+[5.064s] [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/vector3__struct.hpp:31:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Vector3_<std::allocator<void> >& geometry_msgs::msg::Vector3_<std::allocator<void> >::operator=(geometry_msgs::msg::Vector3_<std::allocator<void> >&&)[m[K’
+[5.064s] [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/vector3__struct.hpp:31:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KXsVector[m[K’ to ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >&&[m[K’
+[12.082s] make[2]: *** [CMakeFiles/xsens_mti_node.dir/build.make:90: CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o] Error 1
+[12.082s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_mti_node.dir/all] Error 2
+[12.083s] make: *** [Makefile:146: all] Error 2
+[12.086s] Invoked command in '/home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ubuntu/.local/bin/cmake --build /home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver -- -j4 -l4

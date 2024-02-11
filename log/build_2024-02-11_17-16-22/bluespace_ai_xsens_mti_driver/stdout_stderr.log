@@ -1,0 +1,27 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o[0m
+In file included from [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/xdainterface.cpp:87[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:47:2:[m[K [01;31m[Kerror: [m[K#endif without #if
+   47 | #[01;31m[Kendif[m[K
+      |  [01;31m[K^~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:[m[K In constructor ‘[01m[KCamImuPublisher::CamImuPublisher(rclcpp::Node&)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:23:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kcreate_subscription[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::create_subscription[m[K’?
+   23 |         sub_image = [01;31m[Kcreate_subscription[m[K<sensor_msgs::msg::Image>(
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                     [32m[Krclcpp::create_subscription[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:42[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/xdainterface.h:65[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/xdainterface.cpp:62[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/create_subscription.hpp:80:1:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::create_subscription[m[K’ declared here
+   80 | [01;36m[Kcreate_subscription[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/xdainterface.cpp:87[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:23:64:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   23 |         sub_image = create_subscription<sensor_msgs::msg::Image[01;31m[K>[m[K(
+      |                                                                [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/xsens_mti_node.dir/build.make:90: CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_mti_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

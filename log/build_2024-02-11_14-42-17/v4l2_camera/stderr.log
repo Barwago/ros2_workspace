@@ -1,0 +1,7 @@
+[01m[K/home/ubuntu/ros2_ws/src/v4l2_camera/src/v4l2_camera.cpp:507:[m[K [01;31m[Kerror: [m[Kignoring #pragma omp parallel [[01;31m[K-Werror=unknown-pragmas[m[K]
+  507 |     #pragma omp parallel for
+      | 
+cc1plus: all warnings being treated as errors
+make[2]: *** [CMakeFiles/v4l2_camera.dir/build.make:76: CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/v4l2_camera.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

@@ -1,0 +1,10 @@
+[0.354s] Invoking command in '/home/ubuntu/ros2_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ubuntu/.local/bin/cmake --build /home/ubuntu/ros2_ws/build/v4l2_camera -- -j4 -l4
+[0.416s] [ 14%] [32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o[0m
+[3.790s] [01m[K/home/ubuntu/ros2_ws/src/v4l2_camera/src/v4l2_camera.cpp:[m[K In member function ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::UniquePtr v4l2_camera::V4L2Camera::convert(const Image&) const[m[K’:
+[3.790s] [01m[K/home/ubuntu/ros2_ws/src/v4l2_camera/src/v4l2_camera.cpp:487:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kyuyv2rgb[m[K’ was not declared in this scope
+[3.790s]   487 |       [01;31m[Kyuyv2rgb[m[K(
+[3.791s]       |       [01;31m[K^~~~~~~~[m[K
+[6.634s] make[2]: *** [CMakeFiles/v4l2_camera.dir/build.make:76: CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o] Error 1
+[6.634s] make[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/v4l2_camera.dir/all] Error 2
+[6.635s] make: *** [Makefile:146: all] Error 2
+[6.638s] Invoked command in '/home/ubuntu/ros2_ws/build/v4l2_camera' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ubuntu/.local/bin/cmake --build /home/ubuntu/ros2_ws/build/v4l2_camera -- -j4 -l4

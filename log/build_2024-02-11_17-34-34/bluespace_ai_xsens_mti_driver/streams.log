@@ -1,0 +1,23 @@
+[0.714s] Invoking command in '/home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ubuntu/.local/bin/cmake --build /home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver -- -j4 -l4
+[0.776s] [ 25%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o[0m
+[5.094s] In file included from [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/xdainterface.cpp:87[m[K:
+[5.095s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:[m[K In constructor ‘[01m[KCamImuPublisher::CamImuPublisher(rclcpp::Node&)[m[K’:
+[5.095s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:19:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct CamImuPublisher[m[K’ has no member named ‘[01m[Kget_parameter[m[K’
+[5.095s]    19 |         this->[01;31m[Kget_parameter[m[K("publisher_queue_size", pub_queue_size);
+[5.095s]       |               [01;31m[K^~~~~~~~~~~~~[m[K
+[5.096s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:20:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct CamImuPublisher[m[K’ has no member named ‘[01m[Kcreate_publisher[m[K’
+[5.096s]    20 |         pub = this->[01;31m[Kcreate_publisher[m[K<sensor_msgs::msg::Image>("/imu_cam_sync", pub_queue_size);
+[5.096s]       |                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[5.096s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:20:61:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[5.096s]    20 |         pub = this->create_publisher<sensor_msgs::msg::Image[01;31m[K>[m[K("/imu_cam_sync", pub_queue_size);
+[5.096s]       |                                                             [01;31m[K^[m[K
+[5.101s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:26:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct CamImuPublisher[m[K’ has no member named ‘[01m[Kcreate_subscription[m[K’
+[5.101s]    26 |         sub_image = this->[01;31m[Kcreate_subscription[m[K<sensor_msgs::msg::Image>("/image_raw", 5, sub_image_callback);
+[5.101s]       |                           [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.101s] [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:26:70:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[5.102s]    26 |         sub_image = this->create_subscription<sensor_msgs::msg::Image[01;31m[K>[m[K("/image_raw", 5, sub_image_callback);
+[5.102s]       |                                                                      [01;31m[K^[m[K
+[10.261s] make[2]: *** [CMakeFiles/xsens_mti_node.dir/build.make:90: CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o] Error 1
+[10.261s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_mti_node.dir/all] Error 2
+[10.262s] make: *** [Makefile:146: all] Error 2
+[10.265s] Invoked command in '/home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ubuntu/.local/bin/cmake --build /home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver -- -j4 -l4

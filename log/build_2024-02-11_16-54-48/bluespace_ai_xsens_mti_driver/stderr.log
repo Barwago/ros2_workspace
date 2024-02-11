@@ -1,0 +1,12 @@
+In file included from [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/xdainterface.cpp:87[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:[m[K In member function ‘[01m[Kvoid CamImuPublisher::imu_callback(const XsDataPacket&)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:61:32:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimestamp[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimercmp[m[K’?
+   61 |         imu_msg.header.stamp = [01;31m[Ktimestamp[m[K;
+      |                                [01;31m[K^~~~~~~~~[m[K
+      |                                [32m[Ktimercmp[m[K
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:62:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct XsDataPacket[m[K’ has no member named ‘[01m[KgetAngularVelocity[m[K’
+   62 |         imu_msg.angular_velocity = packet.[01;31m[KgetAngularVelocity[m[K();
+      |                                           [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/xsens_mti_node.dir/build.make:90: CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_mti_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

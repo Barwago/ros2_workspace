@@ -1,0 +1,10 @@
+[0.378s] Invoking command in '/home/ubuntu/ros2_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ubuntu/.local/bin/cmake --build /home/ubuntu/ros2_ws/build/v4l2_camera -- -j4 -l4
+[0.444s] [ 14%] [32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o[0m
+[0.694s] [01m[K/home/ubuntu/ros2_ws/src/v4l2_camera/src/v4l2_camera.cpp:402:1:[m[K [01;31m[Kerror: [m[K"/*" within comment [[01;31m[K-Werror=comment[m[K]
+[0.694s]   402 | /**
+[0.694s]       |  
+[9.869s] cc1plus: all warnings being treated as errors
+[9.921s] make[2]: *** [CMakeFiles/v4l2_camera.dir/build.make:76: CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o] Error 1
+[9.922s] make[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/v4l2_camera.dir/all] Error 2
+[9.922s] make: *** [Makefile:146: all] Error 2
+[9.927s] Invoked command in '/home/ubuntu/ros2_ws/build/v4l2_camera' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ubuntu/.local/bin/cmake --build /home/ubuntu/ros2_ws/build/v4l2_camera -- -j4 -l4

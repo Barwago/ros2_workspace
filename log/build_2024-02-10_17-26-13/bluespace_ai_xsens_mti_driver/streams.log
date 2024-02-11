@@ -1,0 +1,10 @@
+[0.858s] Invoking command in '/home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ubuntu/.local/bin/cmake --build /home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver -- -j4 -l4
+[0.945s] [ 25%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o[0m
+[21.002s] [ 50%] [32m[1mLinking CXX executable xsens_mti_node[0m
+[22.993s] /usr/bin/ld: CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o: in function `CamImuPublisher::operator()(XsDataPacket const&, rclcpp::Time)':
+[22.994s] xdainterface.cpp:(.text._ZN15CamImuPublisherclERK12XsDataPacketN6rclcpp4TimeE[_ZN15CamImuPublisherclERK12XsDataPacketN6rclcpp4TimeE]+0x1d0): undefined reference to `cv_bridge::CvImage::toImageMsg() const'
+[22.994s] collect2: error: ld returned 1 exit status
+[22.995s] make[2]: *** [CMakeFiles/xsens_mti_node.dir/build.make:231: xsens_mti_node] Error 1
+[22.996s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_mti_node.dir/all] Error 2
+[22.997s] make: *** [Makefile:146: all] Error 2
+[23.000s] Invoked command in '/home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ubuntu/.local/bin/cmake --build /home/ubuntu/ros2_ws/build/bluespace_ai_xsens_mti_driver -- -j4 -l4

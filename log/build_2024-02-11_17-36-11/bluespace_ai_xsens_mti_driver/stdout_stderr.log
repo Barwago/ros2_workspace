@@ -1,0 +1,41 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o[0m
+In file included from [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/xdainterface.cpp:87[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:[m[K In constructor ‘[01m[KCamImuPublisher::CamImuPublisher(rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:16:53:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KCamImuPublisher[m[K’ does not have any field named ‘[01m[KNode[m[K’
+   16 |     CamImuPublisher(rclcpp::NodeOptions &options) : [01;31m[KNode[m[K("pub_imu_cam", options){
+      |                                                     [01;31m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:19:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct CamImuPublisher[m[K’ has no member named ‘[01m[Kget_parameter[m[K’
+   19 |         this->[01;31m[Kget_parameter[m[K("publisher_queue_size", pub_queue_size);
+      |               [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:20:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct CamImuPublisher[m[K’ has no member named ‘[01m[Kcreate_publisher[m[K’
+   20 |         pub = this->[01;31m[Kcreate_publisher[m[K<sensor_msgs::msg::Image>("/imu_cam_sync", pub_queue_size);
+      |                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:20:61:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   20 |         pub = this->create_publisher<sensor_msgs::msg::Image[01;31m[K>[m[K("/imu_cam_sync", pub_queue_size);
+      |                                                             [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:26:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct CamImuPublisher[m[K’ has no member named ‘[01m[Kcreate_subscription[m[K’
+   26 |         sub_image = this->[01;31m[Kcreate_subscription[m[K<sensor_msgs::msg::Image>("/image_raw", 5, sub_image_callback);
+      |                           [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:26:70:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   26 |         sub_image = this->create_subscription<sensor_msgs::msg::Image[01;31m[K>[m[K("/image_raw", 5, sub_image_callback);
+      |                                                                      [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/xdainterface.cpp:[m[K In member function ‘[01m[Kvoid XdaInterface::registerPublishers()[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/xdainterface.cpp:191:44:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KCamImuPublisher::CamImuPublisher(rclcpp::Node&)[m[K’
+  191 |   registerCallback(new CamImuPublisher(node[01;31m[K)[m[K);
+      |                                            [01;31m[K^[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/xdainterface.cpp:87[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:16:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KCamImuPublisher::CamImuPublisher(rclcpp::NodeOptions&)[m[K’
+   16 |     [01;36m[KCamImuPublisher[m[K(rclcpp::NodeOptions &options) : Node("pub_imu_cam", options){
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:16:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Node[m[K’ to ‘[01m[Krclcpp::NodeOptions&[m[K’
+   16 |     CamImuPublisher([01;36m[Krclcpp::NodeOptions &options[m[K) : Node("pub_imu_cam", options){
+      |                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:9:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KCamImuPublisher::CamImuPublisher(const CamImuPublisher&)[m[K’
+    9 | struct [01;36m[KCamImuPublisher[m[K : public PacketCallback, PublisherHelperFunctions
+      |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:9:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Node[m[K’ to ‘[01m[Kconst CamImuPublisher&[m[K’
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:9:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KCamImuPublisher::CamImuPublisher(CamImuPublisher&&)[m[K’
+[01m[K/home/ubuntu/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/messagepublishers/imu_cam_publisher.h:9:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Node[m[K’ to ‘[01m[KCamImuPublisher&&[m[K’
+make[2]: *** [CMakeFiles/xsens_mti_node.dir/build.make:90: CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_mti_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

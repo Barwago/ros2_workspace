@@ -1,0 +1,7 @@
+[01m[K/home/ubuntu/ros2_ws/src/v4l2_camera/src/v4l2_camera.cpp:394:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kunsigned char v4l2_camera::CLIPVALUE(int)[m[K’ defined but not used [[01;31m[K-Werror=unused-function[m[K]
+  394 | static unsigned char [01;31m[KCLIPVALUE[m[K(int val)
+      |                      [01;31m[K^~~~~~~~~[m[K
+cc1plus: all warnings being treated as errors
+make[2]: *** [CMakeFiles/v4l2_camera.dir/build.make:76: CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/v4l2_camera.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2
